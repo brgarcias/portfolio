@@ -79,7 +79,7 @@ body .progress_inner__status .box_string, body .progress_inner__status .box_tag,
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     margin: auto;
 }
@@ -363,4 +363,27 @@ body .progress_inner input[type=radio] {
 
 .blue {
     color: #2E6C8E;
+}
+
+.time-line {
+    position: relative;
+    top: 15%;
+}
+
+@media screen and (max-width: 640px) {
+    .time-line {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    body .progress_inner__step label {
+        font-size: 10px;
+    }
+    body .progress_inner__tabs .tab h1 {
+        font-size: 18px;
+    }
+    body .progress_inner__tabs .tab p {
+        font-size: 14px;
+    }
 }
