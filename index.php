@@ -128,35 +128,35 @@
                             <form action="php/enviar-email.php" method="post">
                                 <div class="top-row">
                                     <div class="field-wrap float-label">
-                                        <label for="nome">
+                                        <label id="label-form" for="nome">
                                             Nome<span class="req">*</span>
                                         </label>
-                                        <input id="nome" type="text" name="nome" required autocomplete="off" />
+                                        <input class="input-form" id="nome" type="text" name="nome" required autocomplete="off" />
                                     </div>
                                     <div class="field-wrap float-label">
-                                        <label for="telefone">
+                                        <label id="label-form" for="telefone">
                                             Telefone<span class="req">*</span>
                                         </label>
-                                        <input id="telefone" type="tel" name="telefone" required autocomplete="off" />
+                                        <input class="input-form" id="telefone" type="tel" name="telefone" required autocomplete="off" />
                                     </div>
                                 </div>
                                 <div class="field-wrap float-label">
-                                    <label for="email">
+                                    <label id="label-form" for="email">
                                         E-mail<span class="req">*</span>
                                     </label>
-                                    <input id="email" type="email" name="email" required autocomplete="off" />
+                                    <input class="input-form" id="email" type="email" name="email" required autocomplete="off" />
                                 </div>
                                 <div class="field-wrap float-label">
-                                    <label for="assunto">
+                                    <label id="label-form" for="assunto">
                                         Assunto<span class="req">*</span>
                                     </label>
-                                    <input id="assunto" type="text" name="assunto" required autocomplete="off" />
+                                    <input class="input-form" id="assunto" type="text" name="assunto" required autocomplete="off" />
                                 </div>
                                 <div class="field-wrap float-label">
-                                    <label for="mensagem">
+                                    <label id="label-form" for="mensagem">
                                         Mensagem<span class="req">*</span>
                                     </label>
-                                    <textarea id="mensagem" name="mensagem" cols="30" rows="10" required autocomplete="off"></textarea>
+                                    <textarea class="textarea-form" id="mensagem" name="mensagem" cols="30" rows="10" required autocomplete="off"></textarea>
                                 </div>
                                 <button type="submit" class="button-modal button-block">Enviar</button>
                             </form>
@@ -760,6 +760,8 @@
 
     <!-- Mascara Telefone -->
     <script src="js/mask-phone.js"></script>
+
+    
     <!-- <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script> -->
 </body>
 
