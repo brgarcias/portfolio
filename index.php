@@ -1,7 +1,10 @@
+<?php require('php/load.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
 <head>
+    <base href="<?php echo Config::DIRETORIO_SITE; ?>">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,13 +33,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Izi Modal -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"
-        integrity="sha512-8vr9VoQNQkkCCHGX4BSjg63nI5CI4B+nZ8SF2xy4FMOIyH/2MT0r55V276ypsBFAgmLIGXKtRhbbJueVyYZXjA=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css" integrity="sha512-8vr9VoQNQkkCCHGX4BSjg63nI5CI4B+nZ8SF2xy4FMOIyH/2MT0r55V276ypsBFAgmLIGXKtRhbbJueVyYZXjA==" crossorigin="anonymous" />
     <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- Demo CSS -->
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <!-- Component CSS -->
@@ -54,9 +53,7 @@
     <!-- Modal CSS -->
     <link rel="stylesheet" href="css/modal.css">
     <!-- Feather Icons -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
-        integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous"></script>
     <!-- Modernizr Custom JS -->
     <script src="js/modernizr-custom.js"></script>
 </head>
@@ -73,23 +70,17 @@
         <div class="pages-nav__item"><a class="link link--page" href="#projetos">Projetos</a>
         </div>
         <div class="pages-nav__item"><a class="link link--page" href="#page-training">Voluntariado</a></div>
-        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded"
-                href="#page-buy">Where to buy</a></div>
-        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded"
-                href="#page-blog">Blog &amp; News</a></div>
-        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded"
-                href="#contato">Contato</a></div>
+        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Where to buy</a></div>
+        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog &amp; News</a></div>
+        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#contato">Contato</a></div>
 
         <!-- Redes Sociais -->
         <div class="pages-nav__item pages-nav__item--social">
-            <a class="link link--social link--faded" href="https://www.instagram.com/garciaah/" target="_blank"><i
-                    class="fab fa-instagram"></i><span class="text-hidden">Instagram</span></a>
-            <a class="link link--social link--faded" href="https://www.linkedin.com/in/bruno-garcia-9854b1161/"
-                target="_blank">
+            <a class="link link--social link--faded" href="https://www.instagram.com/garciaah/" target="_blank"><i class="fab fa-instagram"></i><span class="text-hidden">Instagram</span></a>
+            <a class="link link--social link--faded" href="https://www.linkedin.com/in/bruno-garcia-9854b1161/" target="_blank">
                 <i class="fab fa-linkedin"></i>
                 <span class="text-hidden">LinkedIn</span></a>
-            <a class="link link--social link--faded" href="https://www.facebook.com/Garcia9301" target="_blank"><i
-                    class="fab fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+            <a class="link link--social link--faded" href="https://www.facebook.com/Garcia9301" target="_blank"><i class="fab fa-facebook"></i><span class="text-hidden">Facebook</span></a>
             <a class="link link--social link--faded" href="https://github.com/brgarcias" target="_blank">
                 <i class="fab fa-github"></i><span class="text-hidden">Git Hub</span></a>
         </div>
@@ -109,8 +100,7 @@
                 <!-- Nome -->
                 <span class="bp-header__present">
                     Bruno Garcia
-                    <span class="bp-tooltip bp-icon bp-icon--about"
-                        data-content="Amante em desenvolvimento, louco para ter novas experiências e sempre buscando novos desafios ">
+                    <span class="bp-tooltip bp-icon bp-icon--about" data-content="Amante em desenvolvimento, louco para ter novas experiências e sempre buscando novos desafios ">
                     </span>
                 </span>
 
@@ -131,40 +121,42 @@
                 </p>
 
                 <!-- Modal structure -->
-                <div id="modal-options" data-iziModal-fullscreen="true" data-izimodal-group="group1"
-                    data-izimodal-loop="" data-iziModal-title="Toda crítica é bem vinda!"
-                    data-iziModal-subtitle="Fale Comigo" data-iziModal-icon="icon-home"
-                    data-izimodal-zindex="999999999">
+                <div id="modal-options" data-iziModal-fullscreen="true" data-izimodal-group="group1" data-izimodal-loop="" data-iziModal-title="Toda crítica é bem vinda!" data-iziModal-subtitle="Fale Comigo" data-iziModal-icon="icon-home" data-izimodal-zindex="999999999">
                     <!-- Modal content -->
                     <div class="tab-content">
                         <div id="signup">
-                            <form action="/" method="post">
+                            <form action="php/enviar-email.php" method="post">
                                 <div class="top-row">
-                                    <div class="field-wrap">
-                                        <label>
-                                            Primeiro Nome<span class="req">*</span>
+                                    <div class="field-wrap float-label">
+                                        <label for="nome">
+                                            Nome<span class="req">*</span>
                                         </label>
-                                        <input type="text" name="primeiro-nome" required autocomplete="off" />
+                                        <input id="nome" type="text" name="nome" required autocomplete="off" />
                                     </div>
-                                    <div class="field-wrap">
-                                        <label>
-                                            Sobrenome<span class="req">*</span>
+                                    <div class="field-wrap float-label">
+                                        <label for="telefone">
+                                            Telefone<span class="req">*</span>
                                         </label>
-                                        <input type="text" name="sobrenome" required autocomplete="off" />
+                                        <input id="telefone" type="tel" name="telefone" required autocomplete="off" />
                                     </div>
                                 </div>
-                                <div class="field-wrap">
-                                    <label>
+                                <div class="field-wrap float-label">
+                                    <label for="email">
                                         E-mail<span class="req">*</span>
                                     </label>
-                                    <input type="email" name="email" required autocomplete="off" />
+                                    <input id="email" type="email" name="email" required autocomplete="off" />
                                 </div>
-                                <div class="field-wrap">
-                                    <label>
+                                <div class="field-wrap float-label">
+                                    <label for="assunto">
+                                        Assunto<span class="req">*</span>
+                                    </label>
+                                    <input id="assunto" type="text" name="assunto" required autocomplete="off" />
+                                </div>
+                                <div class="field-wrap float-label">
+                                    <label for="mensagem">
                                         Mensagem<span class="req">*</span>
                                     </label>
-                                    <textarea name="mensagem" cols="30" rows="10" required
-                                        autocomplete="off"></textarea>
+                                    <textarea id="mensagem" name="mensagem" cols="30" rows="10" required autocomplete="off"></textarea>
                                 </div>
                                 <button type="submit" class="button-modal button-block">Enviar</button>
                             </form>
@@ -173,19 +165,15 @@
                 </div>
 
                 <nav class="bp-nav">
-                    <a class="bp-nav__item bp-icon bp-icon--prev" style="transition: .5s;"
-                        href="https://github.com/brgarcias" data-info="voltar ao GitHub"><span>
+                    <a class="bp-nav__item bp-icon bp-icon--prev" style="transition: .5s;" href="https://github.com/brgarcias" data-info="voltar ao GitHub"><span>
                             Voltar ao GitHub</span>
                     </a>
                     <!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
-                    <a class="bp-nav__item bp-icon bp-icon--drop open-options" style="transition: .5s;" href="#"
-                        data-info="deixar um Feedback" data-izimodal-open="#modal"
-                        data-izimodal-transitionin="fadeInDown"><span>
+                    <a class="bp-nav__item bp-icon bp-icon--drop open-options" style="transition: .5s;" href="#" data-info="deixar um Feedback" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown"><span>
                             deixar um Feedback</span>
                     </a>
 
-                    <a class="bp-nav__item bp-icon bp-icon--archive" style="transition: .5s;"
-                        href="images/cv/Bruno_Garcia_Resume.zip" download data-info="Baixar CV">
+                    <a class="bp-nav__item bp-icon bp-icon--archive" style="transition: .5s;" href="images/cv/Bruno_Garcia_Resume.zip" download data-info="Baixar CV">
                         <span>Ir para CV</span>
                     </a>
                 </nav>
@@ -257,8 +245,7 @@
             </div>
 
             <div>
-                <img class="poster poster-2" src="images/experiencia-profissional/experiencia-profissional.png"
-                    alt="Bruno Garcia" />
+                <img class="poster poster-2" src="images/experiencia-profissional/experiencia-profissional.png" alt="Bruno Garcia" />
             </div>
         </div>
         <!-- /experiencia fim -->
@@ -268,8 +255,7 @@
         <div class="page" id="formacao-academica">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Formação Acadêmica</h1>
-                <p class="bp-header__desc">Realizando a primeira graduação de muitas <i class="fas fa-heart"
-                        style="color: red;"></i></p>
+                <p class="bp-header__desc">Realizando a primeira graduação de muitas <i class="fas fa-heart" style="color: red;"></i></p>
                 <p class="info">
                     "O homem erudito é um descobridor de fatos que já existem - mas o homem sábio é um criador de
                     valores que não existem e que ele faz existir." &mdash; <span class="blue"><em>Albert
@@ -457,19 +443,16 @@
                     <h2 class="slide__title"><span>The Fabulous</span> Apple Watch</h2>
                 </div>
                 <nav class="slider__nav">
-                    <button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span
-                            class="text-hidden">Previous product</span></button>
+                    <button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
                     <button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View
                             details</span></button>
-                    <button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span
-                            class="text-hidden">Next product</span></button>
+                    <button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
                 </nav>
             </section>
             <!-- /slider-->
             <section class="content">
                 <div class="content__item" id="content-1">
-                    <img class="content__item-img rounded-right" src="images/iphone-content.png"
-                        alt="Apple Watch Content" />
+                    <img class="content__item-img rounded-right" src="images/iphone-content.png" alt="Apple Watch Content" />
                     <div class="content__item-inner">
                         <h2>The iPhone 6</h2>
                         <h3>Incredible performance for powerful apps</h3>
@@ -482,8 +465,7 @@
                     </div>
                 </div>
                 <div class="content__item" id="content-2">
-                    <img class="content__item-img rounded-right" src="images/ipad-content.jpg"
-                        alt="iPad Mini Content" />
+                    <img class="content__item-img rounded-right" src="images/ipad-content.jpg" alt="iPad Mini Content" />
                     <div class="content__item-inner">
                         <h2>The iPad Mini</h2>
                         <h3>Desktop-class architecture without a desktop</h3>
@@ -495,8 +477,7 @@
                     </div>
                 </div>
                 <div class="content__item" id="content-3">
-                    <img class="content__item-img rounded-right" src="images/macbook-content.jpg"
-                        alt="MacBook Content" />
+                    <img class="content__item-img rounded-right" src="images/macbook-content.jpg" alt="MacBook Content" />
                     <div class="content__item-inner">
                         <h2>The MacBook</h2>
                         <h3>It's the future of the notebook</h3>
@@ -521,8 +502,7 @@
                     </div>
                 </div>
                 <div class="content__item" id="content-5">
-                    <img class="content__item-img rounded-right" src="images/apple-watch-content.png"
-                        alt="Apple Watch Content" />
+                    <img class="content__item-img rounded-right" src="images/apple-watch-content.png" alt="Apple Watch Content" />
                     <div class="content__item-inner">
                         <h2>The Apple Watch</h2>
                         <h3>Entirely new ways to stay in touch</h3>
@@ -535,8 +515,7 @@
                                 connect &xrarr;</a></p>
                     </div>
                 </div>
-                <button class="button button--close"><i class="icon icon--circle-cross"></i><span
-                        class="text-hidden">Close content</span></button>
+                <button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
             </section>
 
         </div>
@@ -545,8 +524,7 @@
         <div class="page" id="projetos">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Projetos Realizados</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-                        href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
                 <p class="info">
                     "You have to make a conscious decision to change for your own well-being, that of your family and
                     your country." &mdash;Bill Clinton
@@ -612,8 +590,7 @@
         <div class="page" id="page-training">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Training &amp; Learning Center</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-                        href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
                 <p class="info">
                     "The moment I began to understand what was going on with the treatment of animals, it led me more
                     and more in the way of the path I am [on] now, which is a complete vegan." &mdash; Bryan Adams
@@ -626,8 +603,7 @@
         <div class="page" id="page-buy">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Where to buy</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-                        href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
                 <p class="info">
                     "When people ask me why I don't eat meat or any other animal products, I say, 'Because they are
                     unhealthy and they are the product of a violent and inhumane industry.'" &mdash;
@@ -640,8 +616,7 @@
         <div class="page" id="page-blog">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Blog &amp; News</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-                        href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
                 <p class="info">
                     "The question is not, 'Can they reason?' nor, 'Can they talk?' but rather, 'Can they suffer?"
                     &mdash; Jeremy Bentham
@@ -654,8 +629,7 @@
         <div class="page" id="contato">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Contato</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-                        href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
                 <p class="info">
                     "Man is the only animal that can remain on friendly terms with the victims he intends to eat until
                     he eats them." &mdash; Samuel Butler
@@ -775,15 +749,11 @@
     <button class="menu-button"><span>Menu</span></button>
 
     <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
     <!-- Izi Modal JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"
-        integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A=="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js" integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A==" crossorigin="anonymous"></script>
 
     <!-- Modal-Feedback -->
     <script src="js/modal-feedback.js"></script>

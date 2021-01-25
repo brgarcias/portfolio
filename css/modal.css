@@ -19,7 +19,8 @@ label {
     transition: all 0.25s ease;
     -webkit-backface-visibility: hidden;
     pointer-events: none;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
 }
 
 label .req {
@@ -27,18 +28,9 @@ label .req {
     color: #5c5edc4f;
 }
 
-label.active {
-    transform: translateY(50px);
-    left: 2px;
+.active {
+    transform: translateY(-27px) !important;
     font-size: 14px;
-}
-
-label.active .req {
-    opacity: 0;
-}
-
-label.highlight {
-    color: #ffffff;
 }
 
 input, textarea {
@@ -50,9 +42,10 @@ input, textarea {
     background: none;
     background-image: none;
     border: 1px solid #5c5edc69;
-    color: #ffffff;
     border-radius: 0;
     transition: border-color .25s ease, box-shadow .25s ease;
+    -webkit-appearance: none;
+    cursor: text;
 }
 
 input:focus, textarea:focus {
@@ -90,7 +83,7 @@ textarea {
     outline: none;
     border-radius: 0;
     padding: 15px 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -112,6 +105,10 @@ textarea {
 
 @media screen and (max-width: 600px) {
     #modal-options {
-        max-width: 90% !important;
+        max-width: 95% !important;
+    }
+    .field-wrap {
+        width: 100% !important;
+        margin-bottom: 40px !important;
     }
 }
