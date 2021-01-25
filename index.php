@@ -120,7 +120,7 @@
                     Disponível para viagens e mudanças.
                 </p>
 
-                <!-- Modal structure -->
+                <!-- Modal Feedback -->
                 <div id="modal-options" data-iziModal-fullscreen="true" data-izimodal-group="group1" data-izimodal-loop="" data-iziModal-title="Toda crítica é bem vinda!" data-iziModal-subtitle="Fale Comigo" data-iziModal-icon="icon-home" data-izimodal-zindex="999999999">
                     <!-- Modal content -->
                     <div class="tab-content">
@@ -757,6 +757,9 @@
 
     <!-- Modal-Feedback -->
     <script src="js/modal-feedback.js"></script>
+
+    <!-- Mascara Telefone -->
+    <script src="js/mask-phone.js"></script>
     <!-- <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script> -->
 </body>
 
