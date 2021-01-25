@@ -29,6 +29,10 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Izi Modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"
+        integrity="sha512-8vr9VoQNQkkCCHGX4BSjg63nI5CI4B+nZ8SF2xy4FMOIyH/2MT0r55V276ypsBFAgmLIGXKtRhbbJueVyYZXjA=="
+        crossorigin="anonymous" />
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
@@ -47,6 +51,8 @@
     <link rel="stylesheet" href="css/courses.css">
     <!-- Certification CSS -->
     <link rel="stylesheet" href="css/certifications.css">
+    <!-- Modal CSS -->
+    <link rel="stylesheet" href="css/modal.css">
     <!-- Feather Icons -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
         integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
@@ -124,14 +130,57 @@
                     Disponível para viagens e mudanças.
                 </p>
 
+                <!-- Modal structure -->
+                <div id="modal-options" data-iziModal-fullscreen="true" data-izimodal-group="group1"
+                    data-izimodal-loop="" data-iziModal-title="Toda crítica é bem vinda!"
+                    data-iziModal-subtitle="Fale Comigo" data-iziModal-icon="icon-home"
+                    data-izimodal-zindex="999999999">
+                    <!-- Modal content -->
+                    <div class="tab-content">
+                        <div id="signup">
+                            <form action="/" method="post">
+                                <div class="top-row">
+                                    <div class="field-wrap">
+                                        <label>
+                                            Primeiro Nome<span class="req">*</span>
+                                        </label>
+                                        <input type="text" name="primeiro-nome" required autocomplete="off" />
+                                    </div>
+                                    <div class="field-wrap">
+                                        <label>
+                                            Sobrenome<span class="req">*</span>
+                                        </label>
+                                        <input type="text" name="sobrenome" required autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="field-wrap">
+                                    <label>
+                                        E-mail<span class="req">*</span>
+                                    </label>
+                                    <input type="email" name="email" required autocomplete="off" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label>
+                                        Mensagem<span class="req">*</span>
+                                    </label>
+                                    <textarea name="mensagem" cols="30" rows="10" required
+                                        autocomplete="off"></textarea>
+                                </div>
+                                <button type="submit" class="button-modal button-block">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
                 <nav class="bp-nav">
                     <a class="bp-nav__item bp-icon bp-icon--prev" style="transition: .5s;"
                         href="https://github.com/brgarcias" data-info="voltar ao GitHub"><span>
                             Voltar ao GitHub</span>
                     </a>
                     <!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
-                    <a class="bp-nav__item bp-icon bp-icon--drop" style="transition: .5s;"
-                        href="http://tympanus.net/codrops/?p=25311" data-info="deixar um Feedback"><span>
+                    <a class="bp-nav__item bp-icon bp-icon--drop open-options" style="transition: .5s;" href="#"
+                        data-info="deixar um Feedback" data-izimodal-open="#modal"
+                        data-izimodal-transitionin="fadeInDown"><span>
                             deixar um Feedback</span>
                     </a>
 
@@ -724,8 +773,20 @@
     <!-- /páginas fim -->
 
     <button class="menu-button"><span>Menu</span></button>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
+    <!-- Izi Modal JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"
+        integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A=="
+        crossorigin="anonymous"></script>
+
+    <!-- Modal-Feedback -->
+    <script src="js/modal-feedback.js"></script>
     <!-- <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script> -->
 </body>
 
