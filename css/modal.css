@@ -11,7 +11,7 @@
     padding: 30px;
 }
 
-label {
+#label-form {
     position: absolute;
     transform: translateY(6px);
     left: 13px;
@@ -23,7 +23,7 @@ label {
     letter-spacing: 0.05em;
 }
 
-label .req {
+#label-form .req {
     margin: 2px;
     color: #5c5edc4f;
 }
@@ -33,7 +33,7 @@ label .req {
     font-size: 14px;
 }
 
-input, textarea {
+.input-form, .textarea-form {
     font-size: 22px;
     display: block;
     width: 100%;
@@ -48,12 +48,12 @@ input, textarea {
     cursor: text;
 }
 
-input:focus, textarea:focus {
+.input-form:focus, .textarea-form:focus {
     outline: 0;
     border-color: #2a2c8ab2;
 }
 
-textarea {
+.textarea-form {
     resize: vertical;
 }
 
