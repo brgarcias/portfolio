@@ -48,12 +48,10 @@
     <link rel="stylesheet" href="css/academic.css">
     <!-- Courses CSS -->
     <link rel="stylesheet" href="css/courses.css">
-    <!-- Certification CSS -->
-    <link rel="stylesheet" href="css/certifications.css">
+    <!-- Projects CSS -->
+    <link rel="stylesheet" href="css/projects.css">
     <!-- Modal CSS -->
     <link rel="stylesheet" href="css/modal.css">
-    <!-- Feather Icons -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous"></script>
     <!-- Modernizr Custom JS -->
     <script src="js/modernizr-custom.js"></script>
 </head>
@@ -439,156 +437,180 @@
 
 
         <!-- PROJETOS -->
-        <div class="page" id="projetos">
+        <div class="page container" id="projetos">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Projetos Realizados</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span class="purple">estagiário</span>!</p>
                 <p class="info">
-                    "You have to make a conscious decision to change for your own well-being, that of your family and
-                    your country." &mdash;Bill Clinton
+                    "Aja antes de falar e, portanto, fale de acordo com os seus atos." &mdash; Confúcio
                 </p>
             </header>
 
-
             <!-- Grid -->
             <section class="slider">
+
+                <!-- CSS - Soluções Integradas -->
                 <div class="slide slide--current" data-content="content-1">
                     <div class="slide__mover">
                         <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+                            <img class="zoomer__image" src="images/projects/iphone.png" alt="CSS - Soluções" />
                             <div class="preview">
-                                <img src="images/iphone-content-preview.png" alt="iPhone app preview" />
+                                <img src="images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções" width="117px" />
                                 <div class="zoomer__area zoomer__area--size-2"></div>
                             </div>
                         </div>
                     </div>
-                    <h2 class="slide__title"><span>The Classy</span> iPhone 6</h2>
+                    <h2 class="slide__title"><span>Soluções Integradas</span>CSS</h2>
                 </div>
+
+                <!-- Sensei Organização Contábil -->
                 <div class="slide" data-content="content-2">
                     <div class="slide__mover">
                         <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/ipad.png" alt="iPad Mini" />
+                            <img class="zoomer__image" src="images/projects/ipad.png" alt="Sensei Organização Contábil" />
                             <div class="preview">
-                                <img src="images/ipad-content-preview.png" alt="iPad Mini app preview" />
+                                <img src="images/projects/sensei-contabil-preview.PNG" alt="Sensei Organização Contábil" width="152px" />
                                 <div class="zoomer__area zoomer__area--size-4"></div>
                             </div>
                         </div>
                     </div>
-                    <h2 class="slide__title"><span>The Fantastic</span> iPad Mini</h2>
+                    <h2 class="slide__title"><span>Organização Contábil</span> Sensei</h2>
                 </div>
+
+                <!-- Espaço Arazzo -->
                 <div class="slide" data-content="content-3">
                     <div class="slide__mover">
                         <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/macbook.png" alt="MacBook" />
+                            <img class="zoomer__image" src="images/projects/macbook.png" alt="Espaço Arazzo" />
                             <div class="preview">
-                                <img src="images/macbook-content-preview.jpg" alt="MacBook app preview" />
+                                <img src="images/projects/espaco-arazzo-preview.PNG" alt="Espaço Arazzo" width="321px" height="203px" />
                                 <div class="zoomer__area zoomer__area--size-3"></div>
                             </div>
                         </div>
                     </div>
-                    <h2 class="slide__title"><span>The Amazing</span> MacBook</h2>
+                    <h2 class="slide__title"><span>Estética Facial e Corporal</span> Arazzo</h2>
                 </div>
+
+                <!-- DGS - Serviços Administrativos -->
                 <div class="slide" data-content="content-4">
                     <div class="slide__mover">
                         <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                            <img class="zoomer__image" src="images/projects/imac.png" alt="DGS - Serviços Administrativos" />
                             <div class="preview">
-                                <img src="images/imac-content-preview.jpg" alt="iMac app preview" />
+                                <img src="images/projects/dgs-preview.PNG" alt="DGS - Serviços Administrativos" width="321px" />
                                 <div class="zoomer__area zoomer__area--size-5"></div>
                             </div>
                         </div>
                     </div>
-                    <h2 class="slide__title"><span>The Glorious</span> iMac</h2>
+                    <h2 class="slide__title"><span>Serviços Administrativos</span> DGS</h2>
                 </div>
+
+                <!-- Malka RH - Recrutamento e Seleção -->
                 <div class="slide" data-content="content-5">
                     <div class="slide__mover">
                         <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/apple-watch.png" alt="Apple Watch" />
+                            <img class="zoomer__image" src="images/projects/apple-watch.png" alt="Malka RH - Recrutamento e Seleção" />
                             <div class="preview rounded">
-                                <img src="images/apple-watch-content-preview.png" alt="Apple Watch app preview" />
+                                <img src="images/projects/malka-preview.PNG" alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
                                 <div class="zoomer__area zoomer__area--size-1"></div>
                             </div>
                         </div>
                     </div>
-                    <h2 class="slide__title"><span>The Fabulous</span> Apple Watch</h2>
+                    <h2 class="slide__title"><span>Recrutamento e Seleção</span> Malka RH</h2>
                 </div>
+
                 <nav class="slider__nav">
-                    <button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
-                    <button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View
-                            details</span></button>
-                    <button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+                    <button class="button button--nav-prev"><i class="fas fa-arrow-left"></i><span class="text-hidden">Projeto anterior</span></button>
+                    <button class="button button--zoom"><i class="fas fa-search"></i><span class="text-hidden">Ver Detalhes</span></button>
+                    <button class="button button--nav-next"><i class="fas fa-arrow-right"></i><span class="text-hidden">Próximo projeto</span></button>
                 </nav>
+
             </section>
-            <!-- /slider-->
+
+            <!-- Slider-->
             <section class="content">
+
+                <!-- CSS - Soluções -->
                 <div class="content__item" id="content-1">
-                    <img class="content__item-img rounded-right" src="images/iphone-content.png" alt="Apple Watch Content" />
+                    <img class="content__item-img rounded-right" src="images/projects/css-solucoes.PNG" alt="CSS - Soluções Integradas" />
                     <div class="content__item-inner">
-                        <h2>The iPhone 6</h2>
-                        <h3>Incredible performance for powerful apps</h3>
-                        <p>Built on 64-bit desktop-class architecture, the new A8 chip delivers more power, even while
-                            driving a larger display. The M8 motion coprocessor efficiently gathers data from advanced
-                            sensors and a new barometer. And with increased battery life, iPhone 6 lets you do more, for
-                            longer than ever.</p>
-                        <p><a href="https://www.apple.com/iphone-6/technology/">Learn more about this technology
+                        <h2>CSS - Soluções Integradas</h2>
+                        <h3>Serviços especializados para terminais</h3>
+                        <p>
+                            Primeiro site que realizei sozinho e do zero. Com diversos serviços disponibilizados pela
+                            empresa, muitas páginas foram desenvolvidas. O nome dos serviços são bem extensos e com isso
+                            adicionei responsividade e layout correto nos menus (header, footer, sidebar).
+                        </p>
+                        <p><a href="http://csssolucoes.com.br/" target="_blank">Ver mais sobre o site
                                 &xrarr;</a></p>
                     </div>
                 </div>
+
+                <!-- Sensei Contábil -->
                 <div class="content__item" id="content-2">
-                    <img class="content__item-img rounded-right" src="images/ipad-content.jpg" alt="iPad Mini Content" />
+                    <img class="content__item-img rounded-right" src="images/projects/sensei-contabil.PNG" alt="Sensei Organização Contábil" />
                     <div class="content__item-inner">
-                        <h2>The iPad Mini</h2>
-                        <h3>Desktop-class architecture without a desktop</h3>
-                        <p>Don’t let its size fool you. iPad mini 3 is powered by an A7 chip with 64-bit desktop-class
-                            architecture. A7 delivers amazing processing power without sacriﬁcing battery life. So you
-                            get incredible performance in a device you can take with you wherever you go.</p>
-                        <p><a href="https://www.apple.com/ipad-mini-3/performance/">Learn more about Performance
+                        <h2>Sensei Organização Contábil</h2>
+                        <h3>Empresa de contabilidade</h3>
+                        <p>
+                            Primeira vez que implemento um site responsivo. Nessa ocasião tive que lidar com muitos problemas
+                            de responsividade, o breadcumb estava muito ruim, tanto as imagens como o texto/título. Criei pela
+                            primeira vez também um menu drop-down, visto na aba "Serviços".
+                        </p>
+                        <p><a href="https://www.senseicontabil.com.br/" target="_blank">Ver mais sobre o site
                                 &xrarr;</a></p>
                     </div>
                 </div>
+
+                <!-- Espaço Arazzo -->
                 <div class="content__item" id="content-3">
-                    <img class="content__item-img rounded-right" src="images/macbook-content.jpg" alt="MacBook Content" />
+                    <img class="content__item-img rounded-right" src="images/projects/espaco-arazzo.PNG" alt="Espaço Arazzo" />
                     <div class="content__item-inner">
-                        <h2>The MacBook</h2>
-                        <h3>It's the future of the notebook</h3>
-                        <p>With the new MacBook, we set out to do the impossible: engineer a full-size experience into
-                            the lightest and most compact Mac notebook ever. That meant reimagining every element to
-                            make it not only lighter and thinner but also better. The result is more than just a new
-                            notebook. It's the future of the notebook.</p>
-                        <p><a href="https://www.apple.com/macbook/design/">Learn more about the design &xrarr;</a></p>
+                        <h2>Espaço Arazzo</h2>
+                        <h3>Estética facial e corporal</h3>
+                        <p>
+                            Primeira One Page com o tema sendo estética facil e corporal, ou seja, muitos serviços para cadastrar, e
+                            neste caso, foram muitos mesmo. Trinta e dois (32) serviços ao todo. Fiz de um modo que ficasse claro e
+                            objetivo, sem ficar muito cansativo para quem lê pelo celular ou tablet. Primeira vez também que faço
+                            o header completo e responsivo.
+                        </p>
+                        <p><a href="https://www.espacoarazzo.com.br/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
                     </div>
                 </div>
+
+                <!-- DGS - Serviços Administrativos -->
                 <div class="content__item" id="content-4">
-                    <img class="content__item-img rounded-right" src="images/imac-content.jpg" alt="iMac Content" />
+                    <img class="content__item-img rounded-right" src="images/projects/dgs.PNG" alt="DGS - Serviços Administrativos" />
                     <div class="content__item-inner">
-                        <h2>The iMac</h2>
-                        <h3>Engineered to the very last detail</h3>
-                        <p>Every new Mac comes with Photos, iMovie, GarageBand, Pages, Numbers, and Keynote. So you can
-                            be creative with your photos, videos, music, documents, spreadsheets, and presentations
-                            right from the start. You also get great apps for email, surfing the web, sending texts, and
-                            making FaceTime calls — there’s even an app for finding new apps.</p>
-                        <p><a href="https://www.apple.com/imac/built-in-apps/">Learn more about the iMac's features
+                        <h2>DGS</h2>
+                        <h3>Serviços Administrativos</h3>
+                        <p>
+                            Com pouco mais de experiência, desenvolvi este site muito melhor, com organização de código e componentização
+                            dos arquivos, facilitando muito a manutenção. Adicionei uma funcionalidade scroll, deixando o site mais
+                            agradável ao realizar o clique em uma das opções do header, com o scroll suave no site.
+                        </p>
+                        <p><a href="http://www.dgsservicosadm.com.br/" target="_blank">Ver mais sobre o site
                                 &xrarr;</a></p>
                     </div>
                 </div>
+
+                <!-- Malka RH - Recrutamento e Seleção -->
                 <div class="content__item" id="content-5">
-                    <img class="content__item-img rounded-right" src="images/apple-watch-content.png" alt="Apple Watch Content" />
+                    <img class="content__item-img rounded-right" src="images/projects/malka.PNG" alt="Malka RH - Recrutamento e Seleção" />
                     <div class="content__item-inner">
-                        <h2>The Apple Watch</h2>
-                        <h3>Entirely new ways to stay in touch</h3>
-                        <p>Apple Watch makes all the ways you're used to communicating more convenient. And because it
-                            sits right on your wrist, it can add a physical dimension to alerts and notifications. For
-                            example, you’ll feel a gentle tap with each incoming message. Apple Watch also lets you
-                            connect with your favorite people in fun, spontaneous ways — like sending a tap, a sketch,
-                            or even your heartbeat. </p>
-                        <p><a href="https://www.apple.com/watch/new-ways-to-connect/">Learn more about new ways to
-                                connect &xrarr;</a></p>
+                        <h2>Malka RH</h2>
+                        <h3>Recrutamento e Seleção</h3>
+                        <p>
+                            Nesse site fiz meu primeiro modal. Coloquei dentro dele um iframe que conectava com uma página de atendimento
+                            do sistema do cliente. Por ser uma empresa de recrutamento e seleção e por atender ao público rapidamente,
+                            tive que fazer uma condição para o modal aparecer (somente das 8h às 18h e dias de semana), fiz via JavaScript.
+                        </p>
+                        <p><a href="http://malkarh.com.br/lp/recrutamento-e-selecao/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
                     </div>
                 </div>
-                <button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+
+                <button class="button button--close"><i class="far fa-times-circle"></i><span class="text-hidden">Close content</span></button>
             </section>
-
-
         </div>
 
 
@@ -747,19 +769,24 @@
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <!-- Main & Classie JS -->
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
+
     <!-- Izi Modal JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js" integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A==" crossorigin="anonymous"></script>
 
     <!-- Modal-Feedback -->
     <script src="js/modal-feedback.js"></script>
 
-    <!-- Mascara Telefone -->
+    <!-- Máscara Telefone -->
     <script src="js/mask-phone.js"></script>
 
+    <!-- Slider Zoom Projetcs -->
+    <script src="js/dynamics.min.js"></script>
+    <script src="js/slider-projects.js"></script>
 
-    <!-- <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script> -->
 </body>
 
 </html>
