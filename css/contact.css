@@ -400,3 +400,7 @@ a.follow:hover {
     color: #41efb6;
     border-color: #41efb6;
 }
+
+.icon-top {
+    padding-top: 10px;
+}
