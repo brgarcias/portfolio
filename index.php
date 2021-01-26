@@ -81,7 +81,7 @@
                 <i class="fab fa-linkedin"></i>
                 <span class="text-hidden">LinkedIn</span></a>
             <a class="link link--social link--faded" href="https://www.facebook.com/Garcia9301" target="_blank"><i class="fab fa-facebook"></i><span class="text-hidden">Facebook</span></a>
-            <a class="link link--social link--faded" href="https://github.com/brgarcias" target="_blank">
+            <a class="link link--social link--faded" href="https://github.com/brgarcias?tab=repositories" target="_blank">
                 <i class="fab fa-github"></i><span class="text-hidden">Git Hub</span></a>
         </div>
     </nav>
@@ -520,6 +520,7 @@
 
         </div>
 
+
         <!-- PROJETOS -->
         <div class="page" id="projetos">
             <header class="bp-header cf">
@@ -639,6 +640,7 @@
                 <div class='left'>
                     <div class='app'>
                         <div class='app_inner'>
+
                             <!-- Tab 1 -->
                             <input checked='' id='tab-1' name='buttons' type='radio'>
                             <label for='tab-1'>
@@ -648,7 +650,7 @@
                                         Bruno Garcia da Silva
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='fas fa-user-astronaut'></i>
+                                        <i class='fas fa-user-astronaut icon-top'></i>
                                         <div class='tab_left__image'>
                                             <i class='fas fa-user-astronaut'></i>
                                         </div>
@@ -660,6 +662,7 @@
                                     </div>
                                 </div>
                             </label>
+
                             <!-- Tab 2 -->
                             <input false='' id='tab-2' name='buttons' type='radio'>
                             <label for='tab-2'>
@@ -669,62 +672,63 @@
                                         Ciências da Computação
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='fas fa-user-graduate'></i>
+                                        <i class='fas fa-user-graduate icon-top'></i>
                                         <div class='tab_left__image'>
                                             <i class='fas fa-user-graduate'></i>
                                         </div>
                                     </div>
                                     <div class='tab_right'>
                                         <h3>Universidade São Judas Tadeu - USJT</h3>
-                                        <h4>(11) 99696-9301</h4>
-                                        <p>bruno-151299@hotmail.com</p>
+                                        <h4>6º semestre</h4>
+                                        <p>06/2018 até 06/2022</p>
                                     </div>
                                 </div>
                             </label>
+
                             <!-- Tab 3 -->
                             <input false='' id='tab-3' name='buttons' type='radio'>
                             <label for='tab-3'>
                                 <div class='app_inner__tab'>
                                     <h2>
-                                        <i class='icon ion-android-alarm-clock'></i>
-                                        12am - 4pm
+                                        <i class='fas fa-envelope-open-text'></i>
+                                        bruno-151299@hotmail.com
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='big icon ion-android-microphone'></i>
+                                        <i class='fab fa-mailchimp icon-top'></i>
                                         <div class='tab_left__image'>
-                                            <i class='icon ion-android-microphone'></i>
+                                            <i class='fab fa-mailchimp'></i>
                                         </div>
                                     </div>
                                     <div class='tab_right'>
-                                        <h3>Steven Fry podcast</h3>
-                                        <h4>Staurday - Sunday</h4>
-                                        <p>Steven Fry says words</p>
-                                        <button>More information</button>
+                                        <h3>(11) 99696-9301</h3>
+                                        <h4>Vila Nova Mazzei</h4>
+                                        <p>São Paulo, SP</p>
                                     </div>
                                 </div>
                             </label>
+
                             <!-- Tab 4 -->
                             <input false='' id='tab-4' name='buttons' type='radio'>
                             <label for='tab-4'>
                                 <div class='app_inner__tab'>
                                     <h2>
-                                        <i class='icon ion-android-alarm-clock'></i>
-                                        4pm - 8pm
+                                        <i class='fab fa-angellist'></i>
+                                        Inglês Fluente
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='big icon ion-android-bar'></i>
+                                        <i class='fas fa-balance-scale icon-top'></i>
                                         <div class='tab_left__image'>
-                                            <i class='icon ion-android-bar'></i>
+                                            <i class='fas fa-balance-scale'></i>
                                         </div>
                                     </div>
                                     <div class='tab_right'>
-                                        <h3>Massive event</h3>
-                                        <h4>Monday - Friday</h4>
-                                        <p>Some kind of music festival</p>
-                                        <button>More information</button>
+                                        <h3>Curso de Inglês - Number One</h3>
+                                        <h4>Disponível para viagens e mudanças</h4>
+                                        <p>Em breve um intercâmbio</p>
                                     </div>
                                 </div>
                             </label>
+
                         </div>
                     </div>
                 </div>
