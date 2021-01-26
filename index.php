@@ -371,11 +371,81 @@
                 <h1 class="bp-header__title">Cursos &amp; Certificações</h1>
                 <p class="bp-header__desc">
                     Desenvolvimento contínuo buscando uma oportunidade para aplicar minha
-                    <span class="purple"> experiência</span>
+                    <span class="purple"> experiência</span>!
                 </p>
                 <p class="info">
-                    "I decided to pick the diet that I thought would maximize my chances of long-term survival." &mdash;
-                    Al Gore
+                    "O aspecto mais triste da vida de hoje é que a ciência ganha em conhecimento mais rapidamente que a sociedade em sabedoria." &mdash;
+                    Isaac Asimov
+                </p>
+            </header>
+
+
+            <div class="accordion">
+                <ul>
+                    <li tabindex="1">
+                        <div>
+                            <a href="https://github.com/brgarcias/ReactAppRGB" target="_blank">
+                                <h2>Desenvolvedor FullStack - Bootcamp IGTI</h2>
+                                <p>React, NodeJS, Heroku, JavaScript, HTML5</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li tabindex="2">
+                        <div>
+                            <a href="https://numberone.com.br/" target="_blank">
+                                <h2>Inglês Fluente - Number One</h2>
+                                <p>Curso voltado ao mercado de trabalho</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li tabindex="3">
+                        <div>
+                            <a href="http://outreach.ictp-saifr.org/ensino-medio2018/minicurso-2016/" target="_blank">
+                                <h2>Física Avançada - ICTP Saifr</h2>
+                                <p>Relatividade, Gravitação e Mecânica Quântica</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li tabindex="4">
+                        <div>
+                            <a href="https://www.linkedin.com/learning/succeeding-in-web-development-full-stack-and-front-end/becoming-a-web-developer" target="_blank">
+                                <h2>Succeeding in Web Development</h2>
+                                <p>Full Stack and Front End. Becoming a web developer</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li tabindex="5">
+                        <div>
+                            <a href="https://www.udemy.com/course/curso-web/" target="_blank">
+                                <h2>JavaScript - UDEMY</h2>
+                                <p>HTML5, CSS3, NodeJS, ESNext, Ajax, Gulp, JQuery</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li tabindex="6">
+                        <div>
+                            <a href="https://www.udemy.com/certificate/UC-9IFKSWXJ/" target="_blank">
+                                <h2>Linguagem C - Udemy</h2>
+                                <p>Certificado em Linguagem C - UDEMY</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- PROJETOS -->
+        <div class="page" id="projetos">
+            <header class="bp-header cf">
+                <h1 class="bp-header__title">Projetos Realizados</h1>
+                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="info">
+                    "You have to make a conscious decision to change for your own well-being, that of your family and
+                    your country." &mdash;Bill Clinton
                 </p>
             </header>
 
@@ -518,72 +588,6 @@
                 <button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
             </section>
 
-        </div>
-
-
-        <!-- PROJETOS -->
-        <div class="page" id="projetos">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Projetos Realizados</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-                <p class="info">
-                    "You have to make a conscious decision to change for your own well-being, that of your family and
-                    your country." &mdash;Bill Clinton
-                </p>
-            </header>
-
-            <div class="accordion">
-                <ul>
-                    <li tabindex="1">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li tabindex="2">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li tabindex="3">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li tabindex="4">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li tabindex="5">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li tabindex="6">
-                        <div>
-                            <a href="#">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
 
         </div>
 
