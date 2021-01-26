@@ -578,10 +578,10 @@
         <div class="page container" id="projetos">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Projetos Realizados</h1>
-                <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span class="purple">estagiário</span>!</p>
-                <p class="info">
+                <!-- <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span class="purple">estagiário</span>!</p> -->
+                <!-- <p class="info">
                     "Aja antes de falar e, portanto, fale de acordo com os seus atos." &mdash; Confúcio
-                </p>
+                </p> -->
             </header>
 
             <!-- Grid -->
