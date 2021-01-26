@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 body .left {
     float: left;
     width: 50%;
@@ -403,4 +402,18 @@ a.follow:hover {
 
 .icon-top {
     padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body .left {
+        width: 80%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body .left {
+        width: 100%;
+        left: 10%;
+    }
 }
