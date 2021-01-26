@@ -625,74 +625,63 @@
             <img class="poster" src="images/1.jpg" alt="img01" />
         </div>
 
-
+        <!-- CONTATO -->
         <div class="page" id="contato">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Contato</h1>
-                <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+                <p class="bp-header__desc">Minhas informações pessoais, mas se preferir <a href="https://api.whatsapp.com/send?phone=5511996969301" target="_blank">me chame no whats</a>!</p>
                 <p class="info">
-                    "Man is the only animal that can remain on friendly terms with the victims he intends to eat until
-                    he eats them." &mdash; Samuel Butler
+                    "Enfrentar sofrimentos contribuirá indiscutivelmente para a elevação de sua prática espiritual,
+                    desde que você seja capaz de tranformar a calamidade e o infortúnio em caminho." &mdash; Dalai Lama
                 </p>
             </header>
             <div>
-                <!-- <div class='left'>
-                    <div class='left_inner'>
-                        <h1>Funky Pure CSS Accordion</h1>
-                        <h2>Go on, give it some clicks</h2>
-                        <a class='download' href='https://codepen.io/jcoulterdesign/pens/popular/' target='_blank'>
-                            <i class="icon ion-eye"></i> <span>View my other pens</span>
-                        </a>
-                        <a class='follow' href='https://codepen.io/jcoulterdesign/' target='_blank'>
-                            <i class="icon ion-social-codepen-outline"></i> <span>Follow me on codepen</span>
-                        </a>
-                    </div>
-                </div> -->
                 <div class='left'>
                     <div class='app'>
                         <div class='app_inner'>
+                            <!-- Tab 1 -->
                             <input checked='' id='tab-1' name='buttons' type='radio'>
                             <label for='tab-1'>
                                 <div class='app_inner__tab'>
                                     <h2>
-                                        <i class='icon ion-android-alarm-clock'></i>
-                                        8am - 10am
+                                        <i class='fas fa-user-ninja'></i>
+                                        Bruno Garcia da Silva
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='big icon ion-android-color-palette'></i>
+                                        <i class='fas fa-user-astronaut'></i>
                                         <div class='tab_left__image'>
-                                            <i class='icon ion-android-color-palette'></i>
+                                            <i class='fas fa-user-astronaut'></i>
                                         </div>
                                     </div>
                                     <div class='tab_right'>
-                                        <h3>Jamie talks design</h3>
-                                        <h4>Monday - Thursday</h4>
-                                        <p>I talk a bunch of rubbish</p>
-                                        <button>More information</button>
+                                        <h3>Desenvolvedor Front-End Jr.</h3>
+                                        <h4>Solteiro</h4>
+                                        <p>21 anos</p>
                                     </div>
                                 </div>
                             </label>
+                            <!-- Tab 2 -->
                             <input false='' id='tab-2' name='buttons' type='radio'>
                             <label for='tab-2'>
                                 <div class='app_inner__tab'>
                                     <h2>
-                                        <i class='icon ion-android-alarm-clock'></i>
-                                        10am - 12am
+                                        <i class='fas fa-user-tie'></i>
+                                        Ciências da Computação
                                     </h2>
                                     <div class='tab_left'>
-                                        <i class='big icon ion-music-note'></i>
+                                        <i class='fas fa-user-graduate'></i>
                                         <div class='tab_left__image'>
-                                            <i class='icon ion-music-note'></i>
+                                            <i class='fas fa-user-graduate'></i>
                                         </div>
                                     </div>
                                     <div class='tab_right'>
-                                        <h3>Arctic Monkeys Live</h3>
-                                        <h4>Monday - Wednesday</h4>
-                                        <p>Music for your lug holes</p>
-                                        <button>More information</button>
+                                        <h3>Universidade São Judas Tadeu - USJT</h3>
+                                        <h4>(11) 99696-9301</h4>
+                                        <p>bruno-151299@hotmail.com</p>
                                     </div>
                                 </div>
                             </label>
+                            <!-- Tab 3 -->
                             <input false='' id='tab-3' name='buttons' type='radio'>
                             <label for='tab-3'>
                                 <div class='app_inner__tab'>
@@ -714,6 +703,7 @@
                                     </div>
                                 </div>
                             </label>
+                            <!-- Tab 4 -->
                             <input false='' id='tab-4' name='buttons' type='radio'>
                             <label for='tab-4'>
                                 <div class='app_inner__tab'>
@@ -739,7 +729,6 @@
                     </div>
                 </div>
             </div>
-            <img class="poster" src="images/4.jpg" alt="img04" />
         </div>
 
 
@@ -761,7 +750,7 @@
     <!-- Mascara Telefone -->
     <script src="js/mask-phone.js"></script>
 
-    
+
     <!-- <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script> -->
 </body>
 

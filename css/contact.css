@@ -9,7 +9,7 @@ body .left {
     width: 50%;
     height: 50vh;
     position: Relative;
-    left: 130px;
+    left: 30%;
 }
 
 body .left_inner {
@@ -44,12 +44,12 @@ body .right {
 
 .app {
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 414px;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 60%;
     box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
     -webkit-animation: intro 0.34s 0.4s cubic-bezier(1, 1.4, 0.41, 1.01) forwards;
     animation: intro 0.34s 0.4s cubic-bezier(1, 1.4, 0.41, 1.01) forwards;
