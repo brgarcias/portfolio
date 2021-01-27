@@ -575,180 +575,183 @@
 
 
         <!-- PROJETOS -->
-        <div class="page container" id="projetos">
+        <div class="page" id="projetos">
             <header class="bp-header cf">
                 <h1 class="bp-header__title">Projetos Realizados</h1>
-                <!-- <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span class="purple">estagiário</span>!</p> -->
+                <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span class="purple">estagiário</span>!</p>
                 <!-- <p class="info">
                     "Aja antes de falar e, portanto, fale de acordo com os seus atos." &mdash; Confúcio
                 </p> -->
             </header>
 
-            <!-- Grid -->
-            <section class="slider">
+            <div class="container">
 
-                <!-- CSS - Soluções Integradas -->
-                <div class="slide slide--current" data-content="content-1">
-                    <div class="slide__mover">
-                        <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/projects/iphone.png" alt="CSS - Soluções" />
-                            <div class="preview">
-                                <img src="images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções" width="117px" />
-                                <div class="zoomer__area zoomer__area--size-2"></div>
+                <!-- Grid -->
+                <section class="slider">
+
+                    <!-- CSS - Soluções Integradas -->
+                    <div class="slide slide--current" data-content="content-1">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/projects/iphone.png" alt="CSS - Soluções" />
+                                <div class="preview">
+                                    <img src="images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções" width="117px" />
+                                    <div class="zoomer__area zoomer__area--size-2"></div>
+                                </div>
                             </div>
                         </div>
+                        <h2 class="slide__title"><span>Soluções Integradas</span>CSS</h2>
                     </div>
-                    <h2 class="slide__title"><span>Soluções Integradas</span>CSS</h2>
-                </div>
 
-                <!-- Sensei Organização Contábil -->
-                <div class="slide" data-content="content-2">
-                    <div class="slide__mover">
-                        <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/projects/ipad.png" alt="Sensei Organização Contábil" />
-                            <div class="preview">
-                                <img src="images/projects/sensei-contabil-preview.PNG" alt="Sensei Organização Contábil" width="152px" />
-                                <div class="zoomer__area zoomer__area--size-4"></div>
+                    <!-- Sensei Organização Contábil -->
+                    <div class="slide" data-content="content-2">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/projects/ipad.png" alt="Sensei Organização Contábil" />
+                                <div class="preview">
+                                    <img src="images/projects/sensei-contabil-preview.PNG" alt="Sensei Organização Contábil" width="152px" />
+                                    <div class="zoomer__area zoomer__area--size-4"></div>
+                                </div>
                             </div>
                         </div>
+                        <h2 class="slide__title"><span>Organização Contábil</span> Sensei</h2>
                     </div>
-                    <h2 class="slide__title"><span>Organização Contábil</span> Sensei</h2>
-                </div>
 
-                <!-- Espaço Arazzo -->
-                <div class="slide" data-content="content-3">
-                    <div class="slide__mover">
-                        <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/projects/macbook.png" alt="Espaço Arazzo" />
-                            <div class="preview">
-                                <img src="images/projects/espaco-arazzo-preview.PNG" alt="Espaço Arazzo" width="321px" height="203px" />
-                                <div class="zoomer__area zoomer__area--size-3"></div>
+                    <!-- Espaço Arazzo -->
+                    <div class="slide" data-content="content-3">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/projects/macbook.png" alt="Espaço Arazzo" />
+                                <div class="preview">
+                                    <img src="images/projects/espaco-arazzo-preview.PNG" alt="Espaço Arazzo" width="321px" height="203px" />
+                                    <div class="zoomer__area zoomer__area--size-3"></div>
+                                </div>
                             </div>
                         </div>
+                        <h2 class="slide__title"><span>Estética Facial e Corporal</span> Arazzo</h2>
                     </div>
-                    <h2 class="slide__title"><span>Estética Facial e Corporal</span> Arazzo</h2>
-                </div>
 
-                <!-- DGS - Serviços Administrativos -->
-                <div class="slide" data-content="content-4">
-                    <div class="slide__mover">
-                        <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/projects/imac.png" alt="DGS - Serviços Administrativos" />
-                            <div class="preview">
-                                <img src="images/projects/dgs-preview.PNG" alt="DGS - Serviços Administrativos" width="321px" />
-                                <div class="zoomer__area zoomer__area--size-5"></div>
+                    <!-- DGS - Serviços Administrativos -->
+                    <div class="slide" data-content="content-4">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/projects/imac.png" alt="DGS - Serviços Administrativos" />
+                                <div class="preview">
+                                    <img src="images/projects/dgs-preview.PNG" alt="DGS - Serviços Administrativos" width="321px" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
                             </div>
                         </div>
+                        <h2 class="slide__title"><span>Serviços Administrativos</span> DGS</h2>
                     </div>
-                    <h2 class="slide__title"><span>Serviços Administrativos</span> DGS</h2>
-                </div>
 
-                <!-- Malka RH - Recrutamento e Seleção -->
-                <div class="slide" data-content="content-5">
-                    <div class="slide__mover">
-                        <div class="zoomer flex-center">
-                            <img class="zoomer__image" src="images/projects/apple-watch.png" alt="Malka RH - Recrutamento e Seleção" />
-                            <div class="preview rounded">
-                                <img src="images/projects/malka-preview.PNG" alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
-                                <div class="zoomer__area zoomer__area--size-1"></div>
+                    <!-- Malka RH - Recrutamento e Seleção -->
+                    <div class="slide" data-content="content-5">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/projects/apple-watch.png" alt="Malka RH - Recrutamento e Seleção" />
+                                <div class="preview rounded">
+                                    <img src="images/projects/malka-preview.PNG" alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
+                                    <div class="zoomer__area zoomer__area--size-1"></div>
+                                </div>
                             </div>
                         </div>
+                        <h2 class="slide__title"><span>Recrutamento e Seleção</span> Malka RH</h2>
                     </div>
-                    <h2 class="slide__title"><span>Recrutamento e Seleção</span> Malka RH</h2>
-                </div>
 
-                <nav class="slider__nav">
-                    <button class="button button--nav-prev"><i class="fas fa-arrow-left"></i><span class="text-hidden">Projeto anterior</span></button>
-                    <button class="button button--zoom"><i class="fas fa-search"></i><span class="text-hidden">Ver Detalhes</span></button>
-                    <button class="button button--nav-next"><i class="fas fa-arrow-right"></i><span class="text-hidden">Próximo projeto</span></button>
-                </nav>
+                    <nav class="slider__nav">
+                        <button class="button button--nav-prev"><i class="fas fa-arrow-left"></i><span class="text-hidden">Projeto anterior</span></button>
+                        <button class="button button--zoom"><i class="fas fa-search"></i><span class="text-hidden">Ver Detalhes</span></button>
+                        <button class="button button--nav-next"><i class="fas fa-arrow-right"></i><span class="text-hidden">Próximo projeto</span></button>
+                    </nav>
 
-            </section>
+                </section>
 
-            <!-- Slider-->
-            <section class="content">
+                <!-- Slider-->
+                <section class="content">
 
-                <!-- CSS - Soluções -->
-                <div class="content__item" id="content-1">
-                    <img class="content__item-img rounded-right" src="images/projects/css-solucoes.PNG" alt="CSS - Soluções Integradas" />
-                    <div class="content__item-inner">
-                        <h2>CSS - Soluções Integradas</h2>
-                        <h3>Serviços especializados para terminais</h3>
-                        <p>
-                            Primeiro site que realizei sozinho e do zero. Com diversos serviços disponibilizados pela
-                            empresa, muitas páginas foram desenvolvidas. O nome dos serviços são bem extensos e com isso
-                            adicionei responsividade e layout correto nos menus (header, footer, sidebar).
-                        </p>
-                        <p><a href="http://csssolucoes.com.br/" target="_blank">Ver mais sobre o site
-                                &xrarr;</a></p>
+                    <!-- CSS - Soluções -->
+                    <div class="content__item" id="content-1">
+                        <img class="content__item-img rounded-right" src="images/projects/css-solucoes.PNG" alt="CSS - Soluções Integradas" />
+                        <div class="content__item-inner">
+                            <h2>CSS - Soluções Integradas</h2>
+                            <h3>Serviços especializados para terminais</h3>
+                            <p>
+                                Primeiro site que realizei sozinho e do zero. Com diversos serviços disponibilizados pela
+                                empresa, muitas páginas foram desenvolvidas. O nome dos serviços são bem extensos e com isso
+                                adicionei responsividade e layout correto nos menus (header, footer, sidebar).
+                            </p>
+                            <p><a href="http://csssolucoes.com.br/" target="_blank">Ver mais sobre o site
+                                    &xrarr;</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Sensei Contábil -->
-                <div class="content__item" id="content-2">
-                    <img class="content__item-img rounded-right" src="images/projects/sensei-contabil.PNG" alt="Sensei Organização Contábil" />
-                    <div class="content__item-inner">
-                        <h2>Sensei Organização Contábil</h2>
-                        <h3>Empresa de contabilidade</h3>
-                        <p>
-                            Primeira vez que implemento um site responsivo. Nessa ocasião tive que lidar com muitos problemas
-                            de responsividade, o breadcumb estava muito ruim, tanto as imagens como o texto/título. Criei pela
-                            primeira vez também um menu drop-down, visto na aba "Serviços".
-                        </p>
-                        <p><a href="https://www.senseicontabil.com.br/" target="_blank">Ver mais sobre o site
-                                &xrarr;</a></p>
+                    <!-- Sensei Contábil -->
+                    <div class="content__item" id="content-2">
+                        <img class="content__item-img rounded-right" src="images/projects/sensei-contabil.PNG" alt="Sensei Organização Contábil" />
+                        <div class="content__item-inner">
+                            <h2>Sensei Organização Contábil</h2>
+                            <h3>Empresa de contabilidade</h3>
+                            <p>
+                                Primeira vez que implemento um site responsivo. Nessa ocasião tive que lidar com muitos problemas
+                                de responsividade, o breadcumb estava muito ruim, tanto as imagens como o texto/título. Criei pela
+                                primeira vez também um menu drop-down, visto na aba "Serviços".
+                            </p>
+                            <p><a href="https://www.senseicontabil.com.br/" target="_blank">Ver mais sobre o site
+                                    &xrarr;</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Espaço Arazzo -->
-                <div class="content__item" id="content-3">
-                    <img class="content__item-img rounded-right" src="images/projects/espaco-arazzo.PNG" alt="Espaço Arazzo" />
-                    <div class="content__item-inner">
-                        <h2>Espaço Arazzo</h2>
-                        <h3>Estética facial e corporal</h3>
-                        <p>
-                            Primeira One Page com o tema sendo estética facil e corporal, ou seja, muitos serviços para cadastrar, e
-                            neste caso, foram muitos mesmo. Trinta e dois (32) serviços ao todo. Fiz de um modo que ficasse claro e
-                            objetivo, sem ficar muito cansativo para quem lê pelo celular ou tablet. Primeira vez também que faço
-                            o header completo e responsivo.
-                        </p>
-                        <p><a href="https://www.espacoarazzo.com.br/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
+                    <!-- Espaço Arazzo -->
+                    <div class="content__item" id="content-3">
+                        <img class="content__item-img rounded-right" src="images/projects/espaco-arazzo.PNG" alt="Espaço Arazzo" />
+                        <div class="content__item-inner">
+                            <h2>Espaço Arazzo</h2>
+                            <h3>Estética facial e corporal</h3>
+                            <p>
+                                Primeira One Page com o tema sendo estética facil e corporal, ou seja, muitos serviços para cadastrar, e
+                                neste caso, foram muitos mesmo. Trinta e dois (32) serviços ao todo. Fiz de um modo que ficasse claro e
+                                objetivo, sem ficar muito cansativo para quem lê pelo celular ou tablet. Primeira vez também que faço
+                                o header completo e responsivo.
+                            </p>
+                            <p><a href="https://www.espacoarazzo.com.br/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- DGS - Serviços Administrativos -->
-                <div class="content__item" id="content-4">
-                    <img class="content__item-img rounded-right" src="images/projects/dgs.PNG" alt="DGS - Serviços Administrativos" />
-                    <div class="content__item-inner">
-                        <h2>DGS</h2>
-                        <h3>Serviços Administrativos</h3>
-                        <p>
-                            Com pouco mais de experiência, desenvolvi este site muito melhor, com organização de código e componentização
-                            dos arquivos, facilitando muito a manutenção. Adicionei uma funcionalidade scroll, deixando o site mais
-                            agradável ao realizar o clique em uma das opções do header, com o scroll suave no site.
-                        </p>
-                        <p><a href="http://www.dgsservicosadm.com.br/" target="_blank">Ver mais sobre o site
-                                &xrarr;</a></p>
+                    <!-- DGS - Serviços Administrativos -->
+                    <div class="content__item" id="content-4">
+                        <img class="content__item-img rounded-right" src="images/projects/dgs.PNG" alt="DGS - Serviços Administrativos" />
+                        <div class="content__item-inner">
+                            <h2>DGS</h2>
+                            <h3>Serviços Administrativos</h3>
+                            <p>
+                                Com pouco mais de experiência, desenvolvi este site muito melhor, com organização de código e componentização
+                                dos arquivos, facilitando muito a manutenção. Adicionei uma funcionalidade scroll, deixando o site mais
+                                agradável ao realizar o clique em uma das opções do header, com o scroll suave no site.
+                            </p>
+                            <p><a href="http://www.dgsservicosadm.com.br/" target="_blank">Ver mais sobre o site
+                                    &xrarr;</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Malka RH - Recrutamento e Seleção -->
-                <div class="content__item" id="content-5">
-                    <img class="content__item-img rounded-right" src="images/projects/malka.PNG" alt="Malka RH - Recrutamento e Seleção" />
-                    <div class="content__item-inner">
-                        <h2>Malka RH</h2>
-                        <h3>Recrutamento e Seleção</h3>
-                        <p>
-                            Nesse site fiz meu primeiro modal. Coloquei dentro dele um iframe que conectava com uma página de atendimento
-                            do sistema do cliente. Por ser uma empresa de recrutamento e seleção e por atender ao público rapidamente,
-                            tive que fazer uma condição para o modal aparecer (somente das 8h às 18h e dias de semana), fiz via JavaScript.
-                        </p>
-                        <p><a href="http://malkarh.com.br/lp/recrutamento-e-selecao/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
+                    <!-- Malka RH - Recrutamento e Seleção -->
+                    <div class="content__item" id="content-5">
+                        <img class="content__item-img rounded-right" src="images/projects/malka.PNG" alt="Malka RH - Recrutamento e Seleção" />
+                        <div class="content__item-inner">
+                            <h2>Malka RH</h2>
+                            <h3>Recrutamento e Seleção</h3>
+                            <p>
+                                Nesse site fiz meu primeiro modal. Coloquei dentro dele um iframe que conectava com uma página de atendimento
+                                do sistema do cliente. Por ser uma empresa de recrutamento e seleção e por atender ao público rapidamente,
+                                tive que fazer uma condição para o modal aparecer (somente das 8h às 18h e dias de semana), fiz via JavaScript.
+                            </p>
+                            <p><a href="http://malkarh.com.br/lp/recrutamento-e-selecao/" target="_blank">Ver mais sobre o site &xrarr;</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <button class="button button--close"><i class="far fa-times-circle"></i><span class="text-hidden">Close content</span></button>
-            </section>
+                    <button class="button button--close"><i class="far fa-times-circle"></i><span class="text-hidden">Close content</span></button>
+                </section>
+            </div>
         </div>
 
         <!-- VOLUNTARIADO -->
