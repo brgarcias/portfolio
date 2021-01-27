@@ -22,7 +22,7 @@ $('#modal-options').iziModal({
             // on focus add class active to label
             input.focus(function () {
                 label.addClass("active");
-                console.log("focus");
+                // console.log("focus");
             });
             //on blur check field and remove class if needed
             input.blur(function () {

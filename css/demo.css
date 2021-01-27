@@ -8,23 +8,17 @@
 	src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('../fonts/bpicons/bpicons.woff') format('woff'), url('../fonts/bpicons/bpicons.ttf') format('truetype'), url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
 }
 
-
 /* Made with http://icomoon.io/ */
-
 
 /* Resets */
 
-*,
-*:after,
-*:before {
+*, *:after, *:before {
 	box-sizing: border-box;
 }
 
-
 /* Helper classes */
 
-.cf:before,
-.cf:after {
+.cf:before, .cf:after {
 	content: ' ';
 	display: table;
 }
@@ -32,7 +26,6 @@
 .cf:after {
 	clear: both;
 }
-
 
 /* Main styles */
 
@@ -43,6 +36,12 @@ body {
 	background: #1d1e21;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
 }
 
 a {
@@ -54,7 +53,6 @@ a {
 a:hover {
 	color: #fff;
 }
-
 
 /* Blueprint header */
 
@@ -131,7 +129,7 @@ a:hover {
 	border-radius: 50%;
 }
 
-.bp-nav__item > span {
+.bp-nav__item>span {
 	display: none;
 }
 
@@ -161,7 +159,6 @@ a:hover {
 	text-transform: none;
 	color: #5c5edc;
 	-webkit-font-smoothing: antialiased;
-
 	speak: none;
 }
 

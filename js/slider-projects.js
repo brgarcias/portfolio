@@ -85,12 +85,18 @@
         // open items
         if (zoomCtrl) {
             zoomCtrl.addEventListener('click', function () {
+                const projetos = document.getElementById('projetos')
+                projetos.classList.add('noheight')
                 openItem(items[current]);
             });
         }
 
         // close content
         closeContentCtrl.addEventListener('click', closeContent);
+        closeContentCtrl.addEventListener('click', function () {
+            const projetos = document.getElementById('projetos')
+            projetos.classList.remove('noheight')
+        });
 
         // navigation
         navRightCtrl.addEventListener('click', function () { navigate('right'); });
