@@ -1,4 +1,4 @@
-<?php require('php/load.php'); ?>
+<?php require('assets/php/load.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -14,22 +14,22 @@
     <meta name="author" content="Bruno Garcia" />
 
     <!-- Favi Icon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Izi Modal -->
@@ -37,23 +37,23 @@
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- Demo CSS -->
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
     <!-- Component CSS -->
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
     <!-- TimeLine CSS -->
-    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
     <!-- Contact CSS -->
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <!-- Academic CSS -->
-    <link rel="stylesheet" href="css/academic.css">
+    <link rel="stylesheet" href="assets/css/academic.css">
     <!-- Courses CSS -->
-    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
     <!-- Projects CSS -->
-    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
     <!-- Modal CSS -->
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <!-- Modernizr Custom JS -->
-    <script src="js/modernizr-custom.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
 </head>
 
 <body>
@@ -171,12 +171,12 @@
                             deixar um Feedback</span>
                     </a>
 
-                    <a class="bp-nav__item bp-icon bp-icon--archive" style="transition: .5s;" href="images/cv/Bruno_Garcia_Resume.zip" download data-info="Baixar CV">
+                    <a class="bp-nav__item bp-icon bp-icon--archive" style="transition: .5s;" href="assets/images/cv/Bruno_Garcia_Resume.zip" download data-info="Baixar CV">
                         <span>Ir para CV</span>
                     </a>
                 </nav>
             </header>
-            <img class="poster" src="images/sobre-mim/sobre-mim.png" alt="Bruno Garcia" />
+            <img class="poster" src="assets/images/sobre-mim/sobre-mim.png" alt="Bruno Garcia" />
         </div>
         <!-- /sobre-mim fim -->
 
@@ -243,7 +243,7 @@
             </div>
 
             <div>
-                <img class="poster poster-2" src="images/experiencia-profissional/experiencia-profissional.png" alt="Bruno Garcia" />
+                <img class="poster poster-2" src="assets/images/experiencia-profissional/experiencia-profissional.png" alt="Bruno Garcia" />
             </div>
         </div>
         <!-- /experiencia fim -->
@@ -344,8 +344,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <img class="poster" src="images/2.jpg" alt="img02" /> -->
         </div>
 
 
@@ -593,9 +591,9 @@
                     <div class="slide slide--current" data-content="content-1">
                         <div class="slide__mover">
                             <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="images/projects/iphone.png" alt="CSS - Soluções" />
+                                <img class="zoomer__image" src="assets/images/projects/iphone.png" alt="CSS - Soluções" />
                                 <div class="preview">
-                                    <img src="images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções" width="117px" />
+                                    <img src="assets/images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções" width="117px" />
                                     <div class="zoomer__area zoomer__area--size-2"></div>
                                 </div>
                             </div>
@@ -607,9 +605,9 @@
                     <div class="slide" data-content="content-2">
                         <div class="slide__mover">
                             <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="images/projects/ipad.png" alt="Sensei Organização Contábil" />
+                                <img class="zoomer__image" src="assets/images/projects/ipad.png" alt="Sensei Organização Contábil" />
                                 <div class="preview">
-                                    <img src="images/projects/sensei-contabil-preview.PNG" alt="Sensei Organização Contábil" width="152px" />
+                                    <img src="assets/images/projects/sensei-contabil-preview.PNG" alt="Sensei Organização Contábil" width="152px" />
                                     <div class="zoomer__area zoomer__area--size-4"></div>
                                 </div>
                             </div>
@@ -621,9 +619,9 @@
                     <div class="slide" data-content="content-3">
                         <div class="slide__mover">
                             <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="images/projects/macbook.png" alt="Espaço Arazzo" />
+                                <img class="zoomer__image" src="assets/images/projects/macbook.png" alt="Espaço Arazzo" />
                                 <div class="preview">
-                                    <img src="images/projects/espaco-arazzo-preview.PNG" alt="Espaço Arazzo" width="321px" height="203px" />
+                                    <img src="assets/images/projects/espaco-arazzo-preview.PNG" alt="Espaço Arazzo" width="321px" height="203px" />
                                     <div class="zoomer__area zoomer__area--size-3"></div>
                                 </div>
                             </div>
@@ -635,9 +633,9 @@
                     <div class="slide" data-content="content-4">
                         <div class="slide__mover">
                             <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="images/projects/imac.png" alt="DGS - Serviços Administrativos" />
+                                <img class="zoomer__image" src="assets/images/projects/imac.png" alt="DGS - Serviços Administrativos" />
                                 <div class="preview">
-                                    <img src="images/projects/dgs-preview.PNG" alt="DGS - Serviços Administrativos" width="321px" />
+                                    <img src="assets/images/projects/dgs-preview.PNG" alt="DGS - Serviços Administrativos" width="321px" />
                                     <div class="zoomer__area zoomer__area--size-5"></div>
                                 </div>
                             </div>
@@ -649,9 +647,9 @@
                     <div class="slide" data-content="content-5">
                         <div class="slide__mover">
                             <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="images/projects/apple-watch.png" alt="Malka RH - Recrutamento e Seleção" />
+                                <img class="zoomer__image" src="assets/images/projects/apple-watch.png" alt="Malka RH - Recrutamento e Seleção" />
                                 <div class="preview rounded">
-                                    <img src="images/projects/malka-preview.PNG" alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
+                                    <img src="assets/images/projects/malka-preview.PNG" alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
                                     <div class="zoomer__area zoomer__area--size-1"></div>
                                 </div>
                             </div>
@@ -672,7 +670,7 @@
 
                     <!-- CSS - Soluções -->
                     <div class="content__item" id="content-1">
-                        <img class="content__item-img rounded-right" src="images/projects/css-solucoes.PNG" alt="CSS - Soluções Integradas" />
+                        <img class="content__item-img rounded-right" src="assets/images/projects/css-solucoes.PNG" alt="CSS - Soluções Integradas" />
                         <div class="content__item-inner">
                             <h2>CSS - Soluções Integradas</h2>
                             <h3>Serviços especializados para terminais</h3>
@@ -688,7 +686,7 @@
 
                     <!-- Sensei Contábil -->
                     <div class="content__item" id="content-2">
-                        <img class="content__item-img rounded-right" src="images/projects/sensei-contabil.PNG" alt="Sensei Organização Contábil" />
+                        <img class="content__item-img rounded-right" src="assets/images/projects/sensei-contabil.PNG" alt="Sensei Organização Contábil" />
                         <div class="content__item-inner">
                             <h2>Sensei Organização Contábil</h2>
                             <h3>Empresa de contabilidade</h3>
@@ -704,7 +702,7 @@
 
                     <!-- Espaço Arazzo -->
                     <div class="content__item" id="content-3">
-                        <img class="content__item-img rounded-right" src="images/projects/espaco-arazzo.PNG" alt="Espaço Arazzo" />
+                        <img class="content__item-img rounded-right" src="assets/images/projects/espaco-arazzo.PNG" alt="Espaço Arazzo" />
                         <div class="content__item-inner">
                             <h2>Espaço Arazzo</h2>
                             <h3>Estética facial e corporal</h3>
@@ -720,7 +718,7 @@
 
                     <!-- DGS - Serviços Administrativos -->
                     <div class="content__item" id="content-4">
-                        <img class="content__item-img rounded-right" src="images/projects/dgs.PNG" alt="DGS - Serviços Administrativos" />
+                        <img class="content__item-img rounded-right" src="assets/images/projects/dgs.PNG" alt="DGS - Serviços Administrativos" />
                         <div class="content__item-inner">
                             <h2>DGS</h2>
                             <h3>Serviços Administrativos</h3>
@@ -736,7 +734,7 @@
 
                     <!-- Malka RH - Recrutamento e Seleção -->
                     <div class="content__item" id="content-5">
-                        <img class="content__item-img rounded-right" src="images/projects/malka.PNG" alt="Malka RH - Recrutamento e Seleção" />
+                        <img class="content__item-img rounded-right" src="assets/images/projects/malka.PNG" alt="Malka RH - Recrutamento e Seleção" />
                         <div class="content__item-inner">
                             <h2>Malka RH</h2>
                             <h3>Recrutamento e Seleção</h3>
@@ -754,6 +752,7 @@
             </div>
         </div>
 
+
         <!-- VOLUNTARIADO -->
         <div class="page" id="voluntariado">
             <header class="bp-header cf">
@@ -764,7 +763,7 @@
                     and more in the way of the path I am [on] now, which is a complete vegan." &mdash; Bryan Adams
                 </p>
             </header>
-            <img class="poster" src="images/5.jpg" alt="img05" />
+            <img class="poster" src="assets/images/5.jpg" alt="img05" />
         </div>
 
 
@@ -777,7 +776,7 @@
                     unhealthy and they are the product of a violent and inhumane industry.'" &mdash;
                 </p>
             </header>
-            <img class="poster" src="images/6.jpg" alt="img06" />
+            <img class="poster" src="assets/images/6.jpg" alt="img06" />
         </div>
 
 
@@ -790,8 +789,9 @@
                     &mdash; Jeremy Bentham
                 </p>
             </header>
-            <img class="poster" src="images/1.jpg" alt="img01" />
+            <img class="poster" src="assets/images/1.jpg" alt="img01" />
         </div>
+
 
         <!-- CONTATO -->
         <div class="page" id="contato">
@@ -912,24 +912,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 
     <!-- Main & Classie JS -->
-    <script src="js/classie.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Izi Modal JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js" integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A==" crossorigin="anonymous"></script>
 
     <!-- Modal-Feedback -->
-    <script src="js/modal-feedback.js"></script>
+    <script src="assets/js/modal-feedback.js"></script>
 
     <!-- Máscara Telefone -->
-    <script src="js/mask-phone.js"></script>
+    <script src="assets/js/mask-phone.js"></script>
 
     <!-- Slider Zoom Projetcs -->
-    <script src="js/dynamics.min.js"></script>
-    <script src="js/slider-projects.js"></script>
+    <script src="assets/js/dynamics.min.js"></script>
+    <script src="assets/js/slider-projects.js"></script>
 
-    <script src="js/jquery.fittext.js"></script>
-    <!-- <script src="js/courses.js"></script> -->
+    <!-- Cursos -->
+    <script src="assets/js/jquery.fittext.js"></script>
+    <!-- <script src="assets/js/courses.js"></script> -->
 
     <script>
         $(function() {
