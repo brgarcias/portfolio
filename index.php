@@ -374,36 +374,43 @@
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">Paris</span>
-                                    <span class="desc-course">15°C</span>
+                                    <span class="rb-city">Desenvolvedor FullStack &mdash; IGTI</span>
+                                    <span class="desc-course">
+                                        JavaScript, Node.js, React.js, MongoDB, GitHub e Heroku
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">16°C</span>
+                                    <span class="title-course">Primeiro Módulo - JavaScript Puro</span>
+                                    <span class="description-course">
+                                        Desenvolvimento de aplicação simples com JavaScript puro e
+                                        dados persistidos em memória.
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">17°C</span>
+                                    <span class="title-course">Segundo Módulo - Node.js</span>
+                                    <span class="description-course">
+                                        Desenvolvimento e Criação de API's com o Node.js.
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">15°C</span>
+                                    <span class="title-course">Terceiro Módulo - React.js</span>
+                                    <span class="description-course">
+                                        Desenvolvimento de aplicação com React, conectando-se à API criada
+                                        no módulo anterior.
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">13°C</span>
+                                    <span class="title-course">Quarto Módulo - GitHub / Heroku</span>
+                                    <span class="description-course">
+                                        Persistência de dados, versionamento de código e implantação.
+                                        Publicação da aplicação no Github e implantação no Heroku.
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">10°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">11°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">12°C</span>
+                                    <span class="title-course">Desafio Final</span>
+                                    <span class="description-course">
+                                        Conclusão da aplicação final com todas as tecnologias estudadas.
+                                    </span>
                                 </div>
                             </div>
                         </div>
