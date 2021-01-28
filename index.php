@@ -419,42 +419,44 @@
 
                     <!-- JavaScript - Udemy -->
                     <li class="icon-clima-1">
-                        <h3>JavaScript - Udemy</h3>
+                        <h3>Curso Web Moderno - Udemy</h3>
                         <span class="rb-temp">JavaScript</span>
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">Belgrade</span>
-                                    <span class="desc-course">15°C</span>
+                                    <span class="rb-city">Curso Web Moderno - Udemy</span>
+                                    <span class="desc-course">
+                                        JavaScript, Node.js, ESNext, HTML5, CSS3,
+                                        Ajax, Gulp, jQuery, Bootstrap, Webpack,
+                                        React, Angular9, VueJS, Express
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">16°C</span>
+                                    <span class="title-course">Javascript</span>
+                                    <span class="description-course">
+                                        Fundamentos, Estruturas de Controle, Função,
+                                        Objeto, Array
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">17°C</span>
+                                    <span class="title-course">Node.js</span>
+                                    <span class="description-course">
+                                        Sistema de Módulos, Ler / Escrever Arquivos,
+                                        Middleware, API - Express, Postman
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">15°C</span>
+                                    <span class="title-course">Ajax</span>
+                                    <span class="description-course">
+                                        XMLHttp, Fetch API, Axios, Ajax com jQuery
+                                    </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">13°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">10°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">11°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">12°C</span>
+                                    <span class="title-course">React.js</span>
+                                    <span class="description-course">
+                                        Functional Components, Hooks
+                                    </span>
                                 </div>
                             </div>
                         </div>
