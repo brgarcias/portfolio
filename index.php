@@ -361,7 +361,7 @@
                 </p>
             </header>
 
-            <div class="cursos">
+            <div class="cursos wrapper">
 
                 <ul id="rb-grid" class="rb-grid clearfix">
 
@@ -369,19 +369,45 @@
                     <li class="icon-clima-2">
                         <h3>Desenvolvedor FullStack</h3>
                         <span class="rb-temp">ReactJS</span>
+
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">Paris</span><span class="icon-clima-2"></span><span>11°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-1"></span><span>12°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-4"></span><span>11°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-4"></span><span>10°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-4"></span><span>9°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-2"></span><span>10°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-2"></span><span>10°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-2"></span><span>12°C</span></div>
+                                <div>
+                                    <span class="rb-city">Paris</span>
+                                    <span class="desc-course">15°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">16°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">15°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">13°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">10°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">11°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">12°C</span>
+                                </div>
                             </div>
                         </div>
+
                     </li>
 
                     <!-- JavaScript - Udemy -->
@@ -391,14 +417,38 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">Belgrade</span><span class="icon-clima-1"></span><span>15°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-3"></span><span>16°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-3"></span><span>17°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-3"></span><span>15°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-4"></span><span>13°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-3"></span><span>10°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-1"></span><span>11°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-1"></span><span>12°C</span></div>
+                                <div>
+                                    <span class="rb-city">Belgrade</span>
+                                    <span class="desc-course">15°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">16°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">15°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">13°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">10°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">11°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">12°C</span>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -410,14 +460,38 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">Moscow</span><span class="icon-clima-4"></span><span>1°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-4"></span><span>-1°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-6"></span><span>-2°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-6"></span><span>-6°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-6"></span><span>-4°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-5"></span><span>-5°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-6"></span><span>-6°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-6"></span><span>-8°C</span></div>
+                                <div>
+                                    <span class="rb-city">Moscow</span>
+                                    <span class="desc-course">1°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">-1°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">-2°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">-6°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">-4°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">-5°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">-6°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">-8°C</span>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -429,14 +503,38 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">New Delhi</span><span class="icon-clima-1"></span><span>17°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-1"></span><span>18°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-8"></span><span>19°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-8"></span><span>16°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-10"></span><span>17°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-10"></span><span>18°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-2"></span><span>17°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-1"></span><span>17°C</span></div>
+                                <div>
+                                    <span class="rb-city">New Delhi</span>
+                                    <span class="desc-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">18°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">19°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">16°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">18°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -448,14 +546,38 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">Lisbon</span><span class="icon-clima-1"></span><span>21°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-1"></span><span>19°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-2"></span><span>19°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-2"></span><span>18°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-2"></span><span>17°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-1"></span><span>19°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-1"></span><span>22°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-1"></span><span>18°C</span></div>
+                                <div>
+                                    <span class="rb-city">Lisbon</span>
+                                    <span class="desc-course">21°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">19°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">19°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">18°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">17°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">19°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">22°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">18°C</span>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -467,14 +589,38 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div><span class="rb-city">Tel Aviv</span><span class="icon-clima-1"></span><span>22°C</span></div>
-                                <div><span>Mon</span><span class="icon-clima-1"></span><span>23°C</span></div>
-                                <div><span>Tue</span><span class="icon-clima-2"></span><span>22°C</span></div>
-                                <div><span>Wed</span><span class="icon-clima-2"></span><span>22°C</span></div>
-                                <div><span>Thu</span><span class="icon-clima-2"></span><span>21°C</span></div>
-                                <div><span>Fri</span><span class="icon-clima-1"></span><span>21°C</span></div>
-                                <div><span>Sat</span><span class="icon-clima-2"></span><span>21°C</span></div>
-                                <div><span>Sun</span><span class="icon-clima-2"></span><span>24°C</span></div>
+                                <div>
+                                    <span class="rb-city">Tel Aviv</span>
+                                    <span class="desc-course">22°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Mon</span>
+                                    <span class="description-course">23°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Tue</span>
+                                    <span class="description-course">22°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Wed</span>
+                                    <span class="description-course">22°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Thu</span>
+                                    <span class="description-course">21°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Fri</span>
+                                    <span class="description-course">21°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sat</span>
+                                    <span class="description-course">21°C</span>
+                                </div>
+                                <div>
+                                    <span class="title-course">Sun</span>
+                                    <span class="description-course">24°C</span>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -930,7 +1076,7 @@
 
     <!-- Cursos -->
     <script src="assets/js/jquery.fittext.js"></script>
-    <!-- <script src="assets/js/courses.js"></script> -->
+    <script src="assets/js/courses.js"></script>
 
     <script>
         $(function() {
