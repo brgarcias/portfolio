@@ -501,36 +501,28 @@
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">New Delhi</span>
-                                    <span class="desc-course">17°C</span>
+                                    <span class="rb-city">Inglês Corporativo</span>
+                                    <span class="desc-course">Gramática e Conversação</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">18°C</span>
+                                    <span class="title-course">Tempos Verbais</span>
+                                    <span class="description-course">Simple Past, Past Perfect, Past Continuos</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">19°C</span>
+                                    <span class="title-course">Expressões</span>
+                                    <span class="description-course">"For goodness' sake!", "To have no clue", "Never mind" </span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">16°C</span>
+                                    <span class="title-course">Comparação</span>
+                                    <span class="description-course">Superlative, Comparative</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">17°C</span>
+                                    <span class="title-course">Costumes Antigos</span>
+                                    <span class="description-course">Used to</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">18°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">17°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">17°C</span>
+                                    <span class="title-course">Reported Speech</span>
+                                    <span class="description-course">Said x told - Can x Could - Will x Would</span>
                                 </div>
                             </div>
                         </div>
