@@ -579,36 +579,28 @@
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">Tel Aviv</span>
-                                    <span class="desc-course">22°C</span>
+                                    <span class="rb-city">Física Avançada</span>
+                                    <span class="desc-course">Relatividade, Gravitação e Mecânica Quântica</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">23°C</span>
+                                    <span class="title-course">Espaço-Tempo</span>
+                                    <span class="description-course">Velocidade da Luz, Cone de Luz, Dilatação do Tempo, Distancias e Simultaneidade</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">22°C</span>
+                                    <span class="title-course">Adição de Velocidades</span>
+                                    <span class="description-course">Contração do Espaço, Paradoxo do Gêmeos, Taquião</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">22°C</span>
+                                    <span class="title-course">Luz</span>
+                                    <span class="description-course">Fotão, Velocidade da Luz em ambientes diferentes, Espelhos</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">21°C</span>
+                                    <span class="title-course">Buraco Negro</span>
+                                    <span class="description-course">Gráficos de Buracos Negros e Branco, Singularidade, Plano Complexo</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">21°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">21°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">24°C</span>
+                                    <span class="title-course">Teoria de Cordas</span>
+                                    <span class="description-course">Blocos fundamentais, particulas x cordas</span>
                                 </div>
                             </div>
                         </div>
