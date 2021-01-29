@@ -373,7 +373,7 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Desenvolvedor FullStack &mdash; IGTI</span>
                                     <span class="desc-course">
                                         JavaScript, Node.js, React.js, MongoDB, GitHub e Heroku
@@ -419,17 +419,16 @@
 
                     <!-- JavaScript - Udemy -->
                     <li class="icon-clima-1">
-                        <h3>Web Moderno - Udemy</h3>
+                        <h3>JavaScript - Udemy</h3>
                         <span class="rb-temp">JavaScript</span>
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Curso Web Moderno - Udemy</span>
                                     <span class="desc-course">
-                                        JavaScript, Node.js, ESNext, HTML5, CSS3,
-                                        Ajax, Gulp, jQuery, Bootstrap, Webpack,
-                                        React, Angular9, VueJS, Express
+                                        JavaScript, Node.js, HTML5, CSS3,
+                                        Ajax, jQuery, Bootstrap, React, Express
                                     </span>
                                 </div>
                                 <div class="div-span-cursos">
@@ -469,7 +468,7 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Conceitos</span>
                                     <span class="desc-course">Fundamentos da linguagem de programação</span>
                                 </div>
@@ -500,7 +499,7 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Inglês Corporativo</span>
                                     <span class="desc-course">Gramática e Conversação</span>
                                 </div>
@@ -535,7 +534,7 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Web Development</span>
                                     <span class="desc-course">Linkedin</span>
                                 </div>
@@ -578,7 +577,7 @@
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
                             <div class="rb-week">
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="rb-city">Física Avançada</span>
                                     <span class="desc-course">Relatividade, Gravitação e Mecânica Quântica</span>
                                 </div>
