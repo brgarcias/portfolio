@@ -536,36 +536,36 @@
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">Lisbon</span>
-                                    <span class="desc-course">21°C</span>
+                                    <span class="rb-city">Web Development</span>
+                                    <span class="desc-course">Linkedin</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">19°C</span>
+                                    <span class="title-course">Becoming a Web Developer</span>
+                                    <span class="description-course">Responsabilidades de um programador, carreira e suas tecnologias</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">19°C</span>
+                                    <span class="title-course">A Developer's Life</span>
+                                    <span class="description-course">Tipos de devs, como é a vida de um dev e aonde pode chegar sendo um dev</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">18°C</span>
+                                    <span class="title-course">Core Technologies</span>
+                                    <span class="description-course">HTML5 fundamental, CSS3 design, JavaScript interatividade e HTTP(S) conexão</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">17°C</span>
+                                    <span class="title-course">Core Concepts</span>
+                                    <span class="description-course">Como funciona a internet, montando projetos, métodos de design, habilidade de desenvolvimento e controle de versão</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">19°C</span>
+                                    <span class="title-course">Supporting Technologies</span>
+                                    <span class="description-course">Servidor, Back-end, Ferramentas, Frameworks e Bibliotecas e API'S e Serviços</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">22°C</span>
+                                    <span class="title-course">Education</span>
+                                    <span class="description-course">Bom desenvolvimento de código, bootcamps, cursos online</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">18°C</span>
+                                    <span class="title-course">Getting a Job</span>
+                                    <span class="description-course">Como devs encontram emprego, o processo de contratação, compensação e melhor opção</span>
                                 </div>
                             </div>
                         </div>
