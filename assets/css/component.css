@@ -1,5 +1,4 @@
-html.js,
-.js body {
+html.js, .js body {
 	overflow: hidden;
 	height: 100vh;
 }
@@ -81,8 +80,7 @@ html.js,
 	text-transform: uppercase;
 }
 
-.link:hover,
-.link:focus {
+.link:hover, .link:focus {
 	color: #fff;
 }
 
@@ -115,8 +113,7 @@ html.js,
 	color: #4f4f64;
 }
 
-.link--faded:hover,
-.link--faded:focus {
+.link--faded:hover, .link--faded:focus {
 	color: #5c5edc;
 }
 
@@ -192,7 +189,7 @@ html.js,
 }
 
 .poster-2 {
-    max-height: 100%;
+	max-height: 100%;
 }
 
 /* Menu button */
@@ -215,14 +212,11 @@ html.js,
 	display: none;
 }
 
-.menu-button::before,
-.menu-button::after,
-.menu-button span {
-	background: #5f656f;
+.menu-button::before, .menu-button::after, .menu-button span {
+	background: #a7aaaf;
 }
 
-.menu-button::before,
-.menu-button::after {
+.menu-button::before, .menu-button::after {
 	content: '';
 	position: absolute;
 	top: 50%;
