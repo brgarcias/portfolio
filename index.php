@@ -379,34 +379,34 @@
                                         JavaScript, Node.js, React.js, MongoDB, GitHub e Heroku
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Primeiro Módulo - JavaScript Puro</span>
                                     <span class="description-course">
                                         Desenvolvimento de aplicação simples com JavaScript puro e
                                         dados persistidos em memória.
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Segundo Módulo - Node.js</span>
                                     <span class="description-course">
                                         Desenvolvimento e Criação de API's com o Node.js.
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Terceiro Módulo - React.js</span>
                                     <span class="description-course">
                                         Desenvolvimento de aplicação com React, conectando-se à API criada
                                         no módulo anterior.
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Quarto Módulo - GitHub / Heroku</span>
                                     <span class="description-course">
                                         Persistência de dados, versionamento de código e implantação.
                                         Publicação da aplicação no Github e implantação no Heroku.
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Desafio Final</span>
                                     <span class="description-course">
                                         Conclusão da aplicação final com todas as tecnologias estudadas.
@@ -432,27 +432,27 @@
                                         React, Angular9, VueJS, Express
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Javascript</span>
                                     <span class="description-course">
                                         Fundamentos, Estruturas de Controle, Função,
                                         Objeto, Array
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Node.js</span>
                                     <span class="description-course">
                                         Sistema de Módulos, Ler / Escrever Arquivos,
                                         Middleware, API - Express, Postman
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Ajax</span>
                                     <span class="description-course">
                                         XMLHttp, Fetch API, Axios, Ajax com jQuery
                                     </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">React.js</span>
                                     <span class="description-course">
                                         Functional Components, Hooks
@@ -473,19 +473,19 @@
                                     <span class="rb-city">Conceitos</span>
                                     <span class="desc-course">Fundamentos da linguagem de programação</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Estruturas condicionais</span>
                                     <span class="description-course">If / else / else if / switch</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Estruturas de repetição</span>
                                     <span class="description-course">while / do while / for</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Funções</span>
                                     <span class="description-course">Parâmetros, retorno, tipos de função</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Bibliotecas</span>
                                     <span class="description-course">stdio.h / conio.h</span>
                                 </div>
@@ -504,23 +504,23 @@
                                     <span class="rb-city">Inglês Corporativo</span>
                                     <span class="desc-course">Gramática e Conversação</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Tempos Verbais</span>
                                     <span class="description-course">Simple Past, Past Perfect, Past Continuos</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Expressões</span>
                                     <span class="description-course">"For goodness' sake!", "To have no clue", "Never mind" </span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Comparação</span>
                                     <span class="description-course">Superlative, Comparative</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Costumes Antigos</span>
                                     <span class="description-course">Used to</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Reported Speech</span>
                                     <span class="description-course">Said x told - Can x Could - Will x Would</span>
                                 </div>
@@ -539,31 +539,31 @@
                                     <span class="rb-city">Web Development</span>
                                     <span class="desc-course">Linkedin</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Becoming a Web Developer</span>
                                     <span class="description-course">Responsabilidades de um programador, carreira e suas tecnologias</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">A Developer's Life</span>
                                     <span class="description-course">Tipos de devs, como é a vida de um dev e aonde pode chegar sendo um dev</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Core Technologies</span>
                                     <span class="description-course">HTML5 fundamental, CSS3 design, JavaScript interatividade e HTTP(S) conexão</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Core Concepts</span>
                                     <span class="description-course">Como funciona a internet, montando projetos, métodos de design, habilidade de desenvolvimento e controle de versão</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Supporting Technologies</span>
                                     <span class="description-course">Servidor, Back-end, Ferramentas, Frameworks e Bibliotecas e API'S e Serviços</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Education</span>
                                     <span class="description-course">Bom desenvolvimento de código, bootcamps, cursos online</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Getting a Job</span>
                                     <span class="description-course">Como devs encontram emprego, o processo de contratação, compensação e melhor opção</span>
                                 </div>
@@ -582,23 +582,23 @@
                                     <span class="rb-city">Física Avançada</span>
                                     <span class="desc-course">Relatividade, Gravitação e Mecânica Quântica</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Espaço-Tempo</span>
                                     <span class="description-course">Velocidade da Luz, Cone de Luz, Dilatação do Tempo, Distancias e Simultaneidade</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Adição de Velocidades</span>
                                     <span class="description-course">Contração do Espaço, Paradoxo do Gêmeos, Taquião</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Luz</span>
                                     <span class="description-course">Fotão, Velocidade da Luz em ambientes diferentes, Espelhos</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Buraco Negro</span>
                                     <span class="description-course">Gráficos de Buracos Negros e Branco, Singularidade, Plano Complexo</span>
                                 </div>
-                                <div>
+                                <div class="div-span-cursos">
                                     <span class="title-course">Teoria de Cordas</span>
                                     <span class="description-course">Blocos fundamentais, particulas x cordas</span>
                                 </div>
