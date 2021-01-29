@@ -584,10 +584,22 @@
     font-size: 40px !important;
 }
 
-.description-course, .desc-course {
+.description-course {
     font-size: 25px !important;
+    width: 70% !important;
+    line-height: 1.5 !important;
+    margin: 40px 0 !important;
+    padding: 0px 0 !important;
 }
 
 .desc-course {
+    font-size: 25px !important;
     padding: 4% 0 !important;
+}
+
+.div-span-cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
