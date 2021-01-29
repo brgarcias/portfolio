@@ -56,6 +56,8 @@
     <script src="assets/js/modernizr-custom.js"></script>
 </head>
 
+<!-- onload="onLoad()" -->
+
 <body>
     <!-- HEADER -->
     <nav class="pages-nav">
@@ -1064,6 +1066,17 @@
             Boxgrid.init();
 
         });
+
+        function onLoad() {
+            let doc = document.getElementById('cursos')
+
+            doc.addEventListener('scroll', function() {
+                // let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
+                let value = doc.scrollY
+
+                console.log(value);
+            })
+        }
     </script>
 
 </body>

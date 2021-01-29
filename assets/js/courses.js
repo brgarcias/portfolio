@@ -11,6 +11,15 @@ var $event = $.event,
 	$special,
 	resizeTimeout;
 
+
+let doc = document.getElementById('cursos')
+let value = doc.scrollY
+doc.addEventListener('scroll', function () {
+	// let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
+
+	console.log(value);
+})
+
 $special = $event.special.debouncedresize = {
 	setup: function () {
 		$(this).on("resize", $special.handler);
@@ -63,6 +72,7 @@ var Boxgrid = (function () {
 		initEvents();
 	}
 
+
 	function initEvents() {
 
 		$items.each(function () {
@@ -90,8 +100,10 @@ var Boxgrid = (function () {
 					transform: supportTransitions ? 'rotate(45deg)' : 'none',
 					opacity: 1,
 					zIndex: 9999,
-					pointerEvents: 'auto'
+					pointerEvents: 'auto',
+					top: value + 'px'
 				});
+
 
 				if (supportTransitions) {
 					$overlay.on(transEndEventName, function () {
@@ -180,7 +192,10 @@ var Boxgrid = (function () {
 
 	function getWindowSize() {
 		$body.css('overflow-y', 'hidden');
-		var w = $window.width(), h = $window.height();
+		const doc = document.documentElement
+		const value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
+
+		var w = $window.width(), h = doc.scrollHeight
 		if (current === -1) {
 			$body.css('overflow-y', 'auto');
 		}
