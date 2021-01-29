@@ -419,7 +419,7 @@
 
                     <!-- JavaScript - Udemy -->
                     <li class="icon-clima-1">
-                        <h3>Curso Web Moderno - Udemy</h3>
+                        <h3>Web Moderno - Udemy</h3>
                         <span class="rb-temp">JavaScript</span>
                         <div class="rb-overlay">
                             <span class="rb-close">close</span>
@@ -470,36 +470,24 @@
                             <span class="rb-close">close</span>
                             <div class="rb-week">
                                 <div>
-                                    <span class="rb-city">Moscow</span>
-                                    <span class="desc-course">1°C</span>
+                                    <span class="rb-city">Conceitos</span>
+                                    <span class="desc-course">Fundamentos da linguagem de programação</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Mon</span>
-                                    <span class="description-course">-1°C</span>
+                                    <span class="title-course">Estruturas condicionais</span>
+                                    <span class="description-course">If / else / else if / switch</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Tue</span>
-                                    <span class="description-course">-2°C</span>
+                                    <span class="title-course">Estruturas de repetição</span>
+                                    <span class="description-course">while / do while / for</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Wed</span>
-                                    <span class="description-course">-6°C</span>
+                                    <span class="title-course">Funções</span>
+                                    <span class="description-course">Parâmetros, retorno, tipos de função</span>
                                 </div>
                                 <div>
-                                    <span class="title-course">Thu</span>
-                                    <span class="description-course">-4°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Fri</span>
-                                    <span class="description-course">-5°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sat</span>
-                                    <span class="description-course">-6°C</span>
-                                </div>
-                                <div>
-                                    <span class="title-course">Sun</span>
-                                    <span class="description-course">-8°C</span>
+                                    <span class="title-course">Bibliotecas</span>
+                                    <span class="description-course">stdio.h / conio.h</span>
                                 </div>
                             </div>
                         </div>
