@@ -86,8 +86,8 @@
 
 .rb-close {
     position: absolute;
-    top: 0.4em;
-    right: 0.4em;
+    top: 20px;
+    right: 20px;
     width: 2em;
     height: 2em;
     text-indent: -9000px;
@@ -132,13 +132,13 @@
 .rb-week span {
     display: block;
     height: 30%;
-    width: 100%;
 }
 
 .rb-week span.rb-city {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
+    padding: 4% 0;
 }
 
 .rb-week [class^="icon-"]:before {
@@ -571,24 +571,24 @@
 }
 
 .title-course, .description-course {
-    padding: 2% 0 !important;
+    padding: 0% 0 !important;
 }
 
 .title-course {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .description-course {
-    font-size: 25px;
-    width: 70% !important;
+    font-size: 20px;
+    width: 70%;
     line-height: 1.5 !important;
-    margin: 40px 0;
+    margin: 10px 0;
     padding: 0px 0 !important;
 }
 
 .desc-course {
     font-size: 25px;
-    padding: 4% 0 !important;
+    padding: 1% 0 !important;
 }
 
 .div-span-cursos {
@@ -601,10 +601,11 @@
 @media screen and (max-width: 998px) {
     .rb-week span.rb-city {
         font-size: 40px;
-        padding: 2% 0 0 0;
+        padding: 6% 0 0 0;
     }
     .desc-course {
         font-size: 25px;
+        padding: 5% 0 !important;
     }
     .title-course {
         font-size: 30px;
@@ -612,6 +613,15 @@
     .description-course {
         font-size: 20px;
         margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .rb-week span.rb-city {
+        padding: 8% 0;
+    }
+    .desc-course {
+        padding: 0% 0 !important;
     }
 }
 
@@ -664,14 +674,24 @@
     .description-course {
         font-size: 14px;
         margin: 0 0 8px 0;
+        width: 85% !important;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 350px) {
     .rb-week span.rb-city {
         font-size: 18px;
     }
     .desc-course {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .rb-grid li h3 {
+        font-size: 1.3em;
+    }
+    .rb-temp {
+        font-size: 1em;
     }
 }
