@@ -1,979 +1,1195 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bruno Garcia &mdash; Dev. Full-Stack</title>
-    <meta name="description" content="Bruno Garcia: Um desenvolvedor full-stack inspirado" />
-    <meta name="keywords"
-        content="bruno, garcia, full-stack, css, page stack, 3d, perspective, navigation, menu, html" />
+    <meta
+      name="description"
+      content="Bruno Garcia: Um desenvolvedor full-stack inspirado"
+    />
+    <meta
+      name="keywords"
+      content="bruno, garcia, full-stack, css, page stack, 3d, perspective, navigation, menu, html"
+    />
     <meta name="author" content="Bruno Garcia" />
 
     <!-- Favi Icon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/images/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/images/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/images/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Izi Modal -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"
-        integrity="sha512-8vr9VoQNQkkCCHGX4BSjg63nI5CI4B+nZ8SF2xy4FMOIyH/2MT0r55V276ypsBFAgmLIGXKtRhbbJueVyYZXjA=="
-        crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"
+      integrity="sha512-8vr9VoQNQkkCCHGX4BSjg63nI5CI4B+nZ8SF2xy4FMOIyH/2MT0r55V276ypsBFAgmLIGXKtRhbbJueVyYZXjA=="
+      crossorigin="anonymous"
+    />
     <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <!-- Demo CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
     <!-- Component CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
     <!-- TimeLine CSS -->
-    <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/timeline.css" />
     <!-- Contact CSS -->
-    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/contact.css" />
     <!-- Academic CSS -->
-    <link rel="stylesheet" href="assets/css/academic.css">
+    <link rel="stylesheet" href="assets/css/academic.css" />
     <!-- Courses CSS -->
-    <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="stylesheet" href="assets/css/courses.css" />
     <!-- Projects CSS -->
-    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/projects.css" />
     <!-- Modal CSS -->
-    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/modal.css" />
     <!-- Modernizr Custom JS -->
     <script src="assets/js/modernizr-custom.js"></script>
-</head>
+        <!-- JQuery -->
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"
+      ></script>
+    <!-- Includes HTML -->
+    <script>
+      $(function () {
+        var includes = $("[data-include]");
+        $.each(includes, function () {
+          var file = "views/" + $(this).data("include") + ".html";
+          $(this).load(file);
+        });
+      });
+    </script>
+  </head>
 
-<body>
+  <body>
     <!-- HEADER -->
     <nav class="pages-nav">
+      <!-- Itens do Menu -->
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#sobre-mim">Sobre Mim</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#experiencia-profissional"
+          >Experiência Profissional</a
+        >
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#formacao-academica"
+          >Formação Acadêmica</a
+        >
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#cursos">Cursos &amp; Certificações</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#projetos">Projetos</a>
+      </div>
+      <div class="pages-nav__item">
+        <a class="link link--page" href="#voluntariado">Voluntariado</a>
+      </div>
 
-        <!-- Itens do Menu -->
-        <div class="pages-nav__item"><a class="link link--page" href="#sobre-mim">Sobre Mim</a></div>
-        <div class="pages-nav__item"><a class="link link--page" href="#experiencia-profissional">Experiência
-                Profissional</a></div>
-        <div class="pages-nav__item"><a class="link link--page" href="#formacao-academica">Formação Acadêmica</a>
-        </div>
-        <div class="pages-nav__item"><a class="link link--page" href="#cursos">Cursos &amp; Certificações</a></div>
-        <div class="pages-nav__item"><a class="link link--page" href="#projetos">Projetos</a>
-        </div>
-        <div class="pages-nav__item"><a class="link link--page" href="#voluntariado">Voluntariado</a></div>
+      <!-- Itens do Submenu -->
+      <div class="pages-nav__item pages-nav__item--small">
+        <a class="link link--page link--faded" href="#contato">Contato</a>
+      </div>
 
-        <!-- Itens do Submenu -->
-        <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded"
-                href="#contato">Contato</a></div>
-
-        <!-- Redes Sociais -->
-        <div class="pages-nav__item pages-nav__item--social">
-            <a class="link link--social link--faded" href="mailto:bruno-151299@hotmail.com" target="_blank"><i
-                    class="fa fa-envelope"></i><span class="text-hidden">Email</span></a>
-            <a class="link link--social link--faded" href="https://www.linkedin.com/in/bruno-garcia-9854b1161/"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <span class="text-hidden">LinkedIn</span></a>
-            <a class="link link--social link--faded" href="https://api.whatsapp.com/send?phone=5511996969301&text=Olá,%20Bruno!%20Gostei%20muito%20do%20seu%20portfolio." target="_blank"><i
-                    class="fab fa-whatsapp"></i><span class="text-hidden">Whatsapp</span></a>
-            <a class="link link--social link--faded" href="https://github.com/brgarcias?tab=repositories"
-                target="_blank">
-                <i class="fab fa-github"></i><span class="text-hidden">Git Hub</span></a>
-        </div>
-
+      <!-- Redes Sociais -->
+      <div class="pages-nav__item pages-nav__item--social">
+        <a
+          class="link link--social link--faded"
+          href="mailto:bruno-151299@hotmail.com"
+          target="_blank"
+          ><i class="fa fa-envelope"></i
+          ><span class="text-hidden">Email</span></a
+        >
+        <a
+          class="link link--social link--faded"
+          href="https://www.linkedin.com/in/bruno-garcia-9854b1161/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span class="text-hidden">LinkedIn</span></a
+        >
+        <a
+          class="link link--social link--faded"
+          href="https://api.whatsapp.com/send?phone=5511996969301&text=Olá,%20Bruno!%20Gostei%20muito%20do%20seu%20portfolio."
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+          ><span class="text-hidden">Whatsapp</span></a
+        >
+        <a
+          class="link link--social link--faded"
+          href="https://github.com/brgarcias?tab=repositories"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i
+          ><span class="text-hidden">Git Hub</span></a
+        >
+      </div>
     </nav>
     <!-- /header fim -->
-
 
     <!-- Páginas -->
     <div class="pages-stack">
 
+      <div data-include="about-me"></div>
 
-        <!-- SOBRE MIM -->
-        <div class="page" id="sobre-mim">
-            <!-- Header -->
-            <header class="bp-header cf">
+      <!-- EXPERIÊNCIA PROFISSIONAL -->
+      <div class="page" id="experiencia-profissional">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Experiência Profissional</h1>
+        </header>
 
-                <!-- Nome -->
-                <span class="bp-header__present">
-                    Bruno Garcia
-                    <span class="bp-tooltip bp-icon bp-icon--about"
-                        data-content="Amante em desenvolvimento, louco por novas experiências e sempre buscando novos desafios ">
+        <div class="main">
+          <ul class="cbp_tmtimeline">
+            <li>
+              <time class="cbp_tmtime" datetime="2013-04-11T12:04"
+                ><span>2021</span>
+                <span
+                  >Trocafone - Comercialização de Aparelhos Eletrônicos
+                  LTDA</span
+                ></time
+              >
+              <div class="cbp_tmicon cbp_tmicon-screen">
+                <i class="fas fa-mobile"></i>
+              </div>
+              <div class="cbp_tmlabel">
+                <h2>Desenvolvedor Full Stack JR.</h2>
+                <p>
+                  ● Responsável por discutir, analisar e desenvolver novos
+                  projetos.
+                  <br />
+                  ● Atuação com stacks PHP/CodeIgniter/Laravel, GraphQl/REST
+                  API, ReactJS/NextJS, NodeJS/NestJS, Jira, Jenkins e AWS
+                  <br />
+                  ● Desenvolvi 3 projetos principais, 2 deles como Major Tech,
+                  tendo bastante aprendizado em backend NestJS e PHP Laravel com
+                  REST API e GraphQL, e frontend em NextJS e Blade (PHP).
+                  Projetos desenvolvidos em equipe com foco em compartilhamento
+                  de informações e comunicação.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time class="cbp_tmtime" datetime="2013-04-10 18:30"
+                ><span>2020 a 2021</span>
+                <span>Agência de Marketing Artseven</span></time
+              >
+              <div class="cbp_tmicon cbp_tmicon-phone">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="cbp_tmlabel">
+                <h2>Estagiário – Desenvolvimento Web</h2>
+                <p>
+                  ● Responsável por construir sites, landing pages e lojas
+                  virtuais
+                  <br />
+                  ● Atuação com stacks HTML/CSS, Javascript, PHP e Wordpress
+                  <br />
+                  ● Discutir e analisar a demanda de novos clientes, construir
+                  sites voltados para conversão, elaborar melhor o SEO,
+                  responsividade e performance dos sites e acompanhar as
+                  alterações de acordo com os clientes.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time class="cbp_tmtime" datetime="2013-04-11T12:04"
+                ><span>2018 a 2020</span>
+                <span>Ingenico do Brasil LTDA</span></time
+              >
+              <div class="cbp_tmicon cbp_tmicon-screen">
+                <i class="fas fa-mobile"></i>
+              </div>
+              <div class="cbp_tmlabel">
+                <h2>Estagiário – Desenvolvimento de Software</h2>
+                <p>
+                  ● Responsável por customizar e personalizar terminais de
+                  pagamentos
+                  <br />
+                  ● Atuação com stacks C e JAVA (Android)
+                  <br />
+                  ● Experiência na interface sobre as necessidades de
+                  solicitações provenientes dos clientes, analisando logs de
+                  aplicações, sendo responsável pela resolução de problemas,
+                  fornecendo inclusive documentação para o desenvolvimento
+                </p>
+              </div>
+            </li>
+            <li>
+              <time class="cbp_tmtime" datetime="2013-04-13 05:36"
+                ><span>2017 a 2018</span>
+                <span>Ingenico do Brasil LTDA</span></time
+              >
+              <div class="cbp_tmicon cbp_tmicon-mail">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="cbp_tmlabel">
+                <h2>Jovem Aprendiz – RH</h2>
+                <p>
+                  ● Elaboração de planilhas de controle de recebimento e
+                  organização de documentos de funcionários, como: contratos de
+                  admissão e demissão, relatórios de ponto, atestados de
+                  ausência e justificativas extras, exames admissionais e
+                  demissionais, demonstrativo de pagamentos de salários,
+                  encargos e benefícios.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            class="poster poster-2"
+            src="assets/images/experiencia-profissional/experiencia-profissional.png"
+            alt="Bruno Garcia"
+          />
+        </div>
+      </div>
+      <!-- /experiencia fim -->
+
+      <!-- FORMAÇÃO ACADÊMICA -->
+      <div class="page" id="formacao-academica">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Formação Acadêmica</h1>
+          <p class="bp-header__desc">
+            Realizando a primeira graduação de muitas
+            <i class="fas fa-heart" style="color: red"></i>
+          </p>
+          <p class="info">
+            "O homem erudito é um descobridor de fatos que já existem - mas o
+            homem sábio é um criador de valores que não existem e que ele faz
+            existir." &mdash; <span class="blue"><em>Albert Einstein</em></span>
+          </p>
+        </header>
+
+        <div class="time-line">
+          <div class="progress">
+            <div class="progress_inner">
+              <div class="progress_inner__step">
+                <label for="step-1">Ensino Fundamental</label>
+              </div>
+              <div class="progress_inner__step">
+                <label for="step-2">Ensino Médio</label>
+              </div>
+              <div class="progress_inner__step">
+                <label for="step-3">Ensino Superior</label>
+              </div>
+              <div class="progress_inner__step">
+                <label for="step-4">Pós Graduação</label>
+              </div>
+              <div class="progress_inner__step">
+                <label for="step-5">Doutorado</label>
+              </div>
+              <input checked="checked" id="step-1" name="step" type="radio" />
+              <input id="step-2" name="step" type="radio" />
+              <input id="step-3" name="step" type="radio" />
+              <input id="step-4" name="step" type="radio" />
+              <input id="step-5" name="step" type="radio" />
+              <div class="progress_inner__bar"></div>
+              <div class="progress_inner__bar--set"></div>
+              <div class="progress_inner__tabs">
+                <div class="tab tab-0">
+                  <h1>Colégio Salesiano Santa Teresinha</h1>
+                  <p>
+                    Comecei a Estudar aos 3 anos de idade, em 2002, no Colégio
+                    Salesiano Santa Teresinha. Minha mãe era auxiliar no
+                    colégio, então facilitava os estudos com uma bolsa integral.
+                    Ótima escola, foi essencial para minha formação quando
+                    menor, ensinando diversos valores e fundamentos
+                    indispensáveis para uma criança.
+                  </p>
+                </div>
+                <div class="tab tab-1">
+                  <h1>Colégio Salesiano Santa Teresinha</h1>
+                  <p>
+                    Continuei meus estudos do ensino médio no Colégio Salesiano
+                    Santa Teresinha, que me ajudou muito para realização de
+                    provas e simulados, entre eles o ENEM e FUVEST. Após o
+                    término fiz 1 ano de cursinho pelo ETAPA, passei pela 1ª
+                    fase da FUVEST, porém não consegui passar pela 2ª fase.
+                  </p>
+                </div>
+                <div class="tab tab-2">
+                  <h1>Universidade São Judas Tadeu</h1>
+                  <p>
+                    Apesar de concluir os estudos na Universidade São Judas
+                    Tadeu, comecei o ensino superior em 2018, na faculdade
+                    Anhembi Morumbi, estudando Engenharia de Computação. Gostei
+                    demais do curso e da universidade, ótima estrutura e meus
+                    estudos estavam indo muito bem. Porém, depois do 1º
+                    semestre, a mensalidade ficou muito elevada e não tive
+                    recursos financeiros possíveis. Então me transferi para
+                    Universidade São Judas Tadeu na metade de 2018, mudei para o
+                    curso Ciências da Computação, tendo concluído no primeiro
+                    semestre de 2022.
+                  </p>
+                </div>
+                <div class="tab tab-3">
+                  <h1>Qual será?</h1>
+                  <p>Um sonho a ser realizado...</p>
+                </div>
+                <div class="tab tab-4">
+                  <h1>Quando será?</h1>
+                  <p>Mas não quero ser chamado de doutor!</p>
+                </div>
+              </div>
+              <div class="progress_inner__status">
+                <div class="box_base"></div>
+                <div class="box_lid"></div>
+                <div class="box_ribbon"></div>
+                <div class="box_bow">
+                  <div class="box_bow__left"></div>
+                  <div class="box_bow__right"></div>
+                </div>
+                <div class="box_item"></div>
+                <div class="box_tag"></div>
+                <div class="box_string"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CURSOS -->
+      <div class="page" id="cursos">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Cursos &amp; Certificações</h1>
+          <p class="bp-header__desc">
+            Desenvolvimento contínuo buscando uma oportunidade para aplicar
+            minha
+            <span class="purple"> experiência</span>!
+          </p>
+          <p class="info">
+            "O aspecto mais triste da vida de hoje é que a ciência ganha em
+            conhecimento mais rapidamente que a sociedade em sabedoria." &mdash;
+            Isaac Asimov
+          </p>
+        </header>
+
+        <div class="cursos wrapper">
+          <ul id="rb-grid" class="rb-grid clearfix">
+            <!-- Desenvolvedor FullStack -->
+            <li class="icon-clima-2">
+              <h3>Desenvolvedor FullStack</h3>
+              <span class="rb-temp">ReactJS</span>
+
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city"
+                      >Desenvolvedor FullStack &mdash; IGTI</span
+                    >
+                    <span class="desc-course">
+                      JavaScript, Node.js, React.js, MongoDB, GitHub e Heroku
                     </span>
-                </span>
-
-                <!-- Profissão -->
-                <h1 class="bp-header__title">Desenvolvedor Full-Stack Jr.</h1>
-
-                <!-- Descrição -->
-                <p class="bp-header__desc">
-                    Desenvolvedor Full-Stack, graduado em Ciências da Computação. Inglês avançado. Comunicativo, resiliente e comprometido, atuei como estagiário por 2 anos na área de desenvolvimento de software e 8 meses na área de desenvolvimento front-end, com suporte nível 1 ao desenvolvimento de soluções por terceiros e desenvolvendo sites, landpages e onepages. Como Desenvolvedor Full-Stack Jr, liderei e desenvolvi 3 projetos em equipe, e realizo manutenções continuamente em outros. Disponível para viagens e mudanças.
-                </p>
-
-                <!-- Modal Feedback -->
-                <div id="modal-options" data-iziModal-fullscreen="true" data-izimodal-group="group1"
-                    data-izimodal-loop="" data-iziModal-title="Toda crítica é bem vinda!"
-                    data-iziModal-subtitle="Fale Comigo" data-iziModal-icon="icon-home"
-                    data-izimodal-zindex="999999999">
-                    <!-- Modal content -->
-                    <div class="tab-content">
-                        <div id="signup">
-
-                            <iframe src="https://form.jotform.com/210628002840646" width="100%" height="450"
-                                style="border:none;">
-                            </iframe>
-
-                        </div>
-                    </div>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course"
+                      >Primeiro Módulo - JavaScript Puro</span
+                    >
+                    <span class="description-course">
+                      Desenvolvimento de aplicação simples com JavaScript puro e
+                      dados persistidos em memória.
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Segundo Módulo - Node.js</span>
+                    <span class="description-course">
+                      Desenvolvimento e Criação de API's com o Node.js.
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Terceiro Módulo - React.js</span>
+                    <span class="description-course">
+                      Desenvolvimento de aplicação com React, conectando-se à
+                      API criada no módulo anterior.
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course"
+                      >Quarto Módulo - GitHub / Heroku</span
+                    >
+                    <span class="description-course">
+                      Persistência de dados, versionamento de código e
+                      implantação. Publicação da aplicação no Github e
+                      implantação no Heroku.
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Desafio Final</span>
+                    <span class="description-course">
+                      Conclusão da aplicação final com todas as tecnologias
+                      estudadas.
+                    </span>
+                  </div>
                 </div>
+              </div>
+            </li>
 
-                <nav class="bp-nav">
-                    <a class="bp-nav__item bp-icon bp-icon--drop open-options" style="transition: .5s;" href="#"
-                        data-info="deixar um Feedback" data-izimodal-open="#modal"
-                        data-izimodal-transitionin="fadeInDown"><span>
-                            deixar um Feedback</span>
-                    </a>
-
-                    <a class="bp-nav__item bp-icon bp-icon--archive" style="transition: .5s;"
-                        href="assets/documents/cv/Bruno_Garcia_Resume.zip" download data-info="Baixar CV">
-                        <span>Ir para CV</span>
-                    </a>
-                </nav>
-            </header>
-            <img class="poster" src="assets/images/sobre-mim/sobre-mim.png" alt="Bruno Garcia" />
-        </div>
-        <!-- /sobre-mim fim -->
-
-
-        <!-- EXPERIÊNCIA PROFISSIONAL -->
-        <div class="page" id="experiencia-profissional">
-
-
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Experiência Profissional</h1>
-            </header>
-
-
-            <div class="main">
-                <ul class="cbp_tmtimeline">
-                    <li>
-                        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>2021</span>
-                            <span>Trocafone - Comercialização de Aparelhos Eletrônicos LTDA</span></time>
-                        <div class="cbp_tmicon cbp_tmicon-screen"><i class="fas fa-mobile"></i></div>
-                        <div class="cbp_tmlabel">
-                            <h2>Desenvolvedor Full Stack JR.</h2>
-                            <p>
-                                ●	Responsável por discutir, analisar e desenvolver novos projetos.
-                                <br>
-                                ●	Atuação com stacks PHP/CodeIgniter/Laravel, GraphQl/REST API, ReactJS/NextJS, NodeJS/NestJS, Jira, Jenkins e AWS
-                                <br>
-                                ●	Desenvolvi 3 projetos principais, 2 deles como Major Tech, tendo bastante aprendizado em backend NestJS e PHP Laravel com REST API e GraphQL, e frontend em NextJS e Blade (PHP). Projetos desenvolvidos em equipe com foco em compartilhamento de informações e comunicação.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>2020 a 2021</span>
-                            <span>Agência de Marketing Artseven</span></time>
-                        <div class="cbp_tmicon cbp_tmicon-phone"><i class="fas fa-desktop"></i></i></div>
-                        <div class="cbp_tmlabel">
-                            <h2>Estagiário – Desenvolvimento Web</h2>
-                            <p>
-                                ●	Responsável por construir sites, landing pages e lojas virtuais
-                                <br>
-                                ●	Atuação com stacks HTML/CSS, Javascript, PHP e Wordpress
-                                <br>
-                                ●	Discutir e analisar a demanda de novos clientes, construir sites voltados para conversão, elaborar melhor o SEO, responsividade e performance dos sites e acompanhar as alterações de acordo com os clientes.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>2018 a 2020</span>
-                            <span>Ingenico do Brasil LTDA</span></time>
-                        <div class="cbp_tmicon cbp_tmicon-screen"><i class="fas fa-mobile"></i></div>
-                        <div class="cbp_tmlabel">
-                            <h2>Estagiário – Desenvolvimento de Software</h2>
-                            <p>
-                                ●	Responsável por customizar e personalizar terminais de pagamentos
-                                <br>
-                                ●	Atuação com stacks C e JAVA (Android)
-                                <br>
-                                ●	Experiência na interface sobre as necessidades de solicitações provenientes dos clientes, analisando logs de aplicações, sendo responsável pela resolução de problemas, fornecendo inclusive documentação para o desenvolvimento                                
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>2017 a 2018</span>
-                            <span>Ingenico do Brasil LTDA</span></time>
-                        <div class="cbp_tmicon cbp_tmicon-mail"><i class="fas fa-users"></i></div>
-                        <div class="cbp_tmlabel">
-                            <h2>Jovem Aprendiz – RH</h2>
-                            <p>
-                                ●	Elaboração de planilhas de controle de recebimento e organização de documentos de
-                                funcionários, como: contratos de admissão e demissão, relatórios de ponto, atestados de
-                                ausência e justificativas extras, exames admissionais e demissionais, demonstrativo de
-                                pagamentos de salários, encargos e benefícios.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <img class="poster poster-2" src="assets/images/experiencia-profissional/experiencia-profissional.png"
-                    alt="Bruno Garcia" />
-            </div>
-        </div>
-        <!-- /experiencia fim -->
-
-
-        <!-- FORMAÇÃO ACADÊMICA -->
-        <div class="page" id="formacao-academica">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Formação Acadêmica</h1>
-                <p class="bp-header__desc">Realizando a primeira graduação de muitas <i class="fas fa-heart"
-                        style="color: red;"></i></p>
-                <p class="info">
-                    "O homem erudito é um descobridor de fatos que já existem - mas o homem sábio é um criador de
-                    valores que não existem e que ele faz existir." &mdash; <span class="blue"><em>Albert
-                            Einstein</em></span>
-                </p>
-            </header>
-
-            <div class="time-line">
-                <div class='progress'>
-                    <div class='progress_inner'>
-                        <div class='progress_inner__step'>
-                            <label for='step-1'>Ensino Fundamental</label>
-                        </div>
-                        <div class='progress_inner__step'>
-                            <label for='step-2'>Ensino Médio</label>
-                        </div>
-                        <div class='progress_inner__step'>
-                            <label for='step-3'>Ensino Superior</label>
-                        </div>
-                        <div class='progress_inner__step'>
-                            <label for='step-4'>Pós Graduação</label>
-                        </div>
-                        <div class='progress_inner__step'>
-                            <label for='step-5'>Doutorado</label>
-                        </div>
-                        <input checked='checked' id='step-1' name='step' type='radio'>
-                        <input id='step-2' name='step' type='radio'>
-                        <input id='step-3' name='step' type='radio'>
-                        <input id='step-4' name='step' type='radio'>
-                        <input id='step-5' name='step' type='radio'>
-                        <div class='progress_inner__bar'></div>
-                        <div class='progress_inner__bar--set'></div>
-                        <div class='progress_inner__tabs'>
-                            <div class='tab tab-0'>
-                                <h1>Colégio Salesiano Santa Teresinha</h1>
-                                <p>
-                                    Comecei a Estudar aos 3 anos de idade, em 2002, no Colégio Salesiano Santa
-                                    Teresinha. Minha mãe era auxiliar no colégio, então facilitava os estudos com uma
-                                    bolsa
-                                    integral. Ótima escola, foi essencial para minha formação quando menor, ensinando
-                                    diversos
-                                    valores e fundamentos indispensáveis para uma criança.
-                                </p>
-                            </div>
-                            <div class='tab tab-1'>
-                                <h1>Colégio Salesiano Santa Teresinha</h1>
-                                <p>
-                                    Continuei meus estudos do ensino médio no Colégio Salesiano Santa Teresinha, que me
-                                    ajudou muito para realização de provas e simulados, entre eles o ENEM e FUVEST. Após
-                                    o
-                                    término fiz 1 ano de cursinho pelo ETAPA, passei pela 1ª fase da FUVEST, porém não
-                                    consegui
-                                    passar pela 2ª fase.
-                                </p>
-                            </div>
-                            <div class='tab tab-2'>
-                                <h1>Universidade São Judas Tadeu</h1>
-                                <p>
-                                    Apesar de concluir os estudos na Universidade São Judas Tadeu, comecei o
-                                    ensino superior em 2018, na faculdade Anhembi Morumbi, estudando Engenharia de
-                                    Computação.
-                                    Gostei demais do curso e da universidade, ótima estrutura e meus estudos estavam
-                                    indo muito bem.
-                                    Porém, depois do 1º semestre, a mensalidade ficou muito elevada e não tive recursos
-                                    financeiros
-                                    possíveis. Então me transferi para Universidade São Judas Tadeu na metade de 2018,
-                                    mudei para o curso
-                                    Ciências da Computação, tendo concluído no primeiro semestre de 2022.
-                                </p>
-                            </div>
-                            <div class='tab tab-3'>
-                                <h1>Qual será?</h1>
-                                <p>
-                                    Um sonho a ser realizado...
-                                </p>
-                            </div>
-                            <div class='tab tab-4'>
-                                <h1>Quando será?</h1>
-                                <p>
-                                    Mas não quero ser chamado de doutor!
-                                </p>
-                            </div>
-                        </div>
-                        <div class='progress_inner__status'>
-                            <div class='box_base'></div>
-                            <div class='box_lid'></div>
-                            <div class='box_ribbon'></div>
-                            <div class='box_bow'>
-                                <div class='box_bow__left'></div>
-                                <div class='box_bow__right'></div>
-                            </div>
-                            <div class='box_item'></div>
-                            <div class='box_tag'></div>
-                            <div class='box_string'></div>
-                        </div>
-                    </div>
+            <!-- JavaScript - Udemy -->
+            <li class="icon-clima-1">
+              <h3>JavaScript - Udemy</h3>
+              <span class="rb-temp">JavaScript</span>
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city">Curso Web Moderno - Udemy</span>
+                    <span class="desc-course">
+                      JavaScript, Node.js, HTML5, CSS3, Ajax, jQuery, Bootstrap,
+                      React, Express
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Javascript</span>
+                    <span class="description-course">
+                      Fundamentos, Estruturas de Controle, Função, Objeto, Array
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Node.js</span>
+                    <span class="description-course">
+                      Sistema de Módulos, Ler / Escrever Arquivos, Middleware,
+                      API - Express, Postman
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Ajax</span>
+                    <span class="description-course">
+                      XMLHttp, Fetch API, Axios, Ajax com jQuery
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">React.js</span>
+                    <span class="description-course">
+                      Functional Components, Hooks
+                    </span>
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
+            </li>
 
-
-        <!-- CURSOS -->
-        <div class="page" id="cursos">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Cursos &amp; Certificações</h1>
-                <p class="bp-header__desc">
-                    Desenvolvimento contínuo buscando uma oportunidade para aplicar minha
-                    <span class="purple"> experiência</span>!
-                </p>
-                <p class="info">
-                    "O aspecto mais triste da vida de hoje é que a ciência ganha em conhecimento mais rapidamente que a
-                    sociedade em sabedoria." &mdash;
-                    Isaac Asimov
-                </p>
-            </header>
-
-            <div class="cursos wrapper">
-
-                <ul id="rb-grid" class="rb-grid clearfix">
-
-                    <!-- Desenvolvedor FullStack -->
-                    <li class="icon-clima-2">
-                        <h3>Desenvolvedor FullStack</h3>
-                        <span class="rb-temp">ReactJS</span>
-
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Desenvolvedor FullStack &mdash; IGTI</span>
-                                    <span class="desc-course">
-                                        JavaScript, Node.js, React.js, MongoDB, GitHub e Heroku
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Primeiro Módulo - JavaScript Puro</span>
-                                    <span class="description-course">
-                                        Desenvolvimento de aplicação simples com JavaScript puro e
-                                        dados persistidos em memória.
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Segundo Módulo - Node.js</span>
-                                    <span class="description-course">
-                                        Desenvolvimento e Criação de API's com o Node.js.
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Terceiro Módulo - React.js</span>
-                                    <span class="description-course">
-                                        Desenvolvimento de aplicação com React, conectando-se à API criada
-                                        no módulo anterior.
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Quarto Módulo - GitHub / Heroku</span>
-                                    <span class="description-course">
-                                        Persistência de dados, versionamento de código e implantação.
-                                        Publicação da aplicação no Github e implantação no Heroku.
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Desafio Final</span>
-                                    <span class="description-course">
-                                        Conclusão da aplicação final com todas as tecnologias estudadas.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <!-- JavaScript - Udemy -->
-                    <li class="icon-clima-1">
-                        <h3>JavaScript - Udemy</h3>
-                        <span class="rb-temp">JavaScript</span>
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Curso Web Moderno - Udemy</span>
-                                    <span class="desc-course">
-                                        JavaScript, Node.js, HTML5, CSS3,
-                                        Ajax, jQuery, Bootstrap, React, Express
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Javascript</span>
-                                    <span class="description-course">
-                                        Fundamentos, Estruturas de Controle, Função,
-                                        Objeto, Array
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Node.js</span>
-                                    <span class="description-course">
-                                        Sistema de Módulos, Ler / Escrever Arquivos,
-                                        Middleware, API - Express, Postman
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Ajax</span>
-                                    <span class="description-course">
-                                        XMLHttp, Fetch API, Axios, Ajax com jQuery
-                                    </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">React.js</span>
-                                    <span class="description-course">
-                                        Functional Components, Hooks
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Linguagem C - Udemy -->
-                    <li class="icon-clima-4">
-                        <h3>Linguagem C - Udemy</h3>
-                        <span class="rb-temp">C</span>
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Conceitos</span>
-                                    <span class="desc-course">Fundamentos da linguagem de programação</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Estruturas condicionais</span>
-                                    <span class="description-course">If / else / else if / switch</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Estruturas de repetição</span>
-                                    <span class="description-course">while / do while / for</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Funções</span>
-                                    <span class="description-course">Parâmetros, retorno, tipos de função</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Bibliotecas</span>
-                                    <span class="description-course">stdio.h / conio.h</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Inglês Fluente - Number One -->
-                    <li class="icon-clima-1">
-                        <h3>Inglês Fluente</h3>
-                        <span class="rb-temp">Number One</span>
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Inglês Corporativo</span>
-                                    <span class="desc-course">Gramática e Conversação</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Tempos Verbais</span>
-                                    <span class="description-course">Simple Past, Past Perfect, Past Continuos</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Expressões</span>
-                                    <span class="description-course">"For goodness' sake!", "To have no clue", "Never
-                                        mind" </span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Comparação</span>
-                                    <span class="description-course">Superlative, Comparative</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Costumes Antigos</span>
-                                    <span class="description-course">Used to</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Reported Speech</span>
-                                    <span class="description-course">Said x told - Can x Could - Will x Would</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Succeeding in Web Development -->
-                    <li class="icon-clima-1 rb-span-2">
-                        <h3>Succeeding in Web Development</h3>
-                        <span class="rb-temp">Becoming a Web Developer</span>
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Web Development</span>
-                                    <span class="desc-course">Linkedin</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Becoming a Web Developer</span>
-                                    <span class="description-course">Responsabilidades de um programador, carreira e
-                                        suas tecnologias</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">A Developer's Life</span>
-                                    <span class="description-course">Tipos de devs, como é a vida de um dev e aonde pode
-                                        chegar sendo um dev</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Core Technologies</span>
-                                    <span class="description-course">HTML5 fundamental, CSS3 design, JavaScript
-                                        interatividade e HTTP(S) conexão</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Core Concepts</span>
-                                    <span class="description-course">Como funciona a internet, montando projetos,
-                                        métodos de design, habilidade de desenvolvimento e controle de versão</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Supporting Technologies</span>
-                                    <span class="description-course">Servidor, Back-end, Ferramentas, Frameworks e
-                                        Bibliotecas e API'S e Serviços</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Education</span>
-                                    <span class="description-course">Bom desenvolvimento de código, bootcamps, cursos
-                                        online</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Getting a Job</span>
-                                    <span class="description-course">Como devs encontram emprego, o processo de
-                                        contratação, compensação e melhor opção</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Física Avançada - ICTP Saifr -->
-                    <li class="icon-clima-1 rb-span-2">
-                        <h3>Física Avançada - ICTP Saifr</h3>
-                        <span class="rb-temp">Relatividade, Gravitação e Mecânica Quântica</span>
-                        <div class="rb-overlay">
-                            <span class="rb-close">close</span>
-                            <div class="rb-week">
-                                <div class="div-span-cursos">
-                                    <span class="rb-city">Física Avançada</span>
-                                    <span class="desc-course">Relatividade, Gravitação e Mecânica Quântica</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Espaço-Tempo</span>
-                                    <span class="description-course">Velocidade da Luz, Cone de Luz, Dilatação do Tempo,
-                                        Distancias e Simultaneidade</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Adição de Velocidades</span>
-                                    <span class="description-course">Contração do Espaço, Paradoxo do Gêmeos,
-                                        Taquião</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Luz</span>
-                                    <span class="description-course">Fotão, Velocidade da Luz em ambientes diferentes,
-                                        Espelhos</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Buraco Negro</span>
-                                    <span class="description-course">Gráficos de Buracos Negros e Branco, Singularidade,
-                                        Plano Complexo</span>
-                                </div>
-                                <div class="div-span-cursos">
-                                    <span class="title-course">Teoria de Cordas</span>
-                                    <span class="description-course">Blocos fundamentais, particulas x cordas</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-        <!-- PROJETOS -->
-        <div class="page" id="projetos">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Projetos Realizados</h1>
-                <p class="bp-header__desc">Alguns dos projetos realizados por mim, ainda enquanto <span
-                        class="purple">estagiário e júnior</span>!</p>
-            </header>
-
-            <div class="container">
-
-                <!-- Grid -->
-                <section class="slider">
-
-                    <!-- CSS - Soluções Integradas -->
-                    <div class="slide slide--current" data-content="content-1">
-                        <div class="slide__mover">
-                            <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="assets/images/projects/iphone.png"
-                                    alt="CSS - Soluções" />
-                                <div class="preview">
-                                    <img src="assets/images/projects/css-solucoes-preview.PNG" alt="CSS - Soluções"
-                                        width="117px" />
-                                    <div class="zoomer__area zoomer__area--size-2"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="slide__title"><span>Soluções Integradas</span>CSS</h2>
-                    </div>
-
-                    <!-- Sensei Organização Contábil -->
-                    <div class="slide" data-content="content-2">
-                        <div class="slide__mover">
-                            <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="assets/images/projects/ipad.png"
-                                    alt="Sensei Organização Contábil" />
-                                <div class="preview">
-                                    <img src="assets/images/projects/sensei-contabil-preview.PNG"
-                                        alt="Sensei Organização Contábil" width="152px" />
-                                    <div class="zoomer__area zoomer__area--size-4"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="slide__title"><span>Organização Contábil</span> Sensei</h2>
-                    </div>
-
-                    <!-- Trocafone Reparos -->
-                    <div class="slide" data-content="content-3">
-                        <div class="slide__mover">
-                            <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="assets/images/projects/macbook.png"
-                                    alt="Trocafone Reparos" />
-                                <div class="preview">
-                                    <img src="assets/images/projects/trocafone_reparos_preview.png" alt="Trocafone Reparos"
-                                        width="321px" height="203px" />
-                                    <div class="zoomer__area zoomer__area--size-3"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="slide__title"><span>Trocafone Reparos</span> Reparofone</h2>
-                    </div>
-
-                    <!-- DGS - Serviços Administrativos -->
-                    <div class="slide" data-content="content-4">
-                        <div class="slide__mover">
-                            <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="assets/images/projects/imac.png"
-                                    alt="DGS - Serviços Administrativos" />
-                                <div class="preview">
-                                    <img src="assets/images/projects/dgs-preview.PNG"
-                                        alt="DGS - Serviços Administrativos" width="321px" />
-                                    <div class="zoomer__area zoomer__area--size-5"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="slide__title"><span>Serviços Administrativos</span> DGS</h2>
-                    </div>
-
-                    <!-- Malka RH - Recrutamento e Seleção -->
-                    <div class="slide" data-content="content-5">
-                        <div class="slide__mover">
-                            <div class="zoomer flex-center">
-                                <img class="zoomer__image" src="assets/images/projects/apple-watch.png"
-                                    alt="Malka RH - Recrutamento e Seleção" />
-                                <div class="preview rounded">
-                                    <img src="assets/images/projects/malka-preview.PNG"
-                                        alt="Malka RH - Recrutamento e Seleção" width="100px" height="120px" />
-                                    <div class="zoomer__area zoomer__area--size-1"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="slide__title"><span>Recrutamento e Seleção</span> Malka RH</h2>
-                    </div>
-
-                    <nav class="slider__nav">
-                        <button class="button button--nav-prev"><i class="fas fa-arrow-left"></i><span
-                                class="text-hidden">Projeto anterior</span></button>
-                        <button class="button button--zoom"><i class="fas fa-search"></i><span class="text-hidden">Ver
-                                Detalhes</span></button>
-                        <button class="button button--nav-next"><i class="fas fa-arrow-right"></i><span
-                                class="text-hidden">Próximo projeto</span></button>
-                    </nav>
-
-                </section>
-
-                <!-- Slider-->
-                <section class="content">
-
-                    <!-- CSS - Soluções -->
-                    <div class="content__item" id="content-1">
-                        <img class="content__item-img rounded-right" src="assets/images/projects/css-solucoes.PNG"
-                            alt="CSS - Soluções Integradas" />
-                        <div class="content__item-inner">
-                            <h2>CSS - Soluções Integradas</h2>
-                            <h3>Serviços especializados para terminais</h3>
-                            <p>
-                                Primeiro site que realizei sozinho e do zero. Com diversos serviços disponibilizados
-                                pela
-                                empresa, muitas páginas foram desenvolvidas. O nome dos serviços são bem extensos e com
-                                isso
-                                adicionei responsividade e layout correto nos menus (header, footer, sidebar).
-                            </p>
-                            <p><a href="http://csssolucoes.com.br/" target="_blank">Ver mais sobre o site
-                                    &xrarr;</a></p>
-                        </div>
-                    </div>
-
-                    <!-- Sensei Contábil -->
-                    <div class="content__item" id="content-2">
-                        <img class="content__item-img rounded-right" src="assets/images/projects/sensei-contabil.PNG"
-                            alt="Sensei Organização Contábil" />
-                        <div class="content__item-inner">
-                            <h2>Sensei Organização Contábil</h2>
-                            <h3>Empresa de contabilidade</h3>
-                            <p>
-                                Primeira vez que implemento um site responsivo. Nessa ocasião tive que lidar com muitos
-                                problemas
-                                de responsividade, o breadcumb estava muito ruim, tanto as imagens como o texto/título.
-                                Criei pela
-                                primeira vez também um menu drop-down, visto na aba "Serviços".
-                            </p>
-                            <p><a href="https://www.senseicontabil.com.br/" target="_blank">Ver mais sobre o site
-                                    &xrarr;</a></p>
-                        </div>
-                    </div>
-
-                    <!-- Trocafone Reparos -->
-                    <div class="content__item" id="content-3">
-                        <img class="content__item-img rounded-right" src="assets/images/projects/trocafone_reparos.png"
-                            alt="Trocafone Reparos" />
-                        <div class="content__item-inner">
-                            <h2>Trocafone Reparos</h2>
-                            <h3>Reparo de Smartphones</h3>
-                            <p>
-                                Primeira página feita 100% em React, com tecnologias e bibliotecas derivadas do React,
-                                como por exemplo, Redux para tratamento dos estados da aplicação e o Material UI para construção 
-                                dos componentes e estilização. Foi utilizado também o GraphQL para consumação das APIs.
-                            </p>
-                            <p><a href="https://reparofone.com.br/novaordem" target="_blank">Ver mais sobre o site
-                                    &xrarr;</a></p>
-                        </div>
-                    </div>
-
-                    <!-- DGS - Serviços Administrativos -->
-                    <div class="content__item" id="content-4">
-                        <img class="content__item-img rounded-right" src="assets/images/projects/dgs.PNG"
-                            alt="DGS - Serviços Administrativos" />
-                        <div class="content__item-inner">
-                            <h2>DGS</h2>
-                            <h3>Serviços Administrativos</h3>
-                            <p>
-                                Com pouco mais de experiência, desenvolvi este site muito melhor, com organização de
-                                código e componentização
-                                dos arquivos, facilitando muito a manutenção. Adicionei uma funcionalidade scroll,
-                                deixando o site mais
-                                agradável ao realizar o clique em uma das opções do header, com o scroll suave no site.
-                            </p>
-                            <p><a href="http://www.dgsservicosadm.com.br/" target="_blank">Ver mais sobre o site
-                                    &xrarr;</a></p>
-                        </div>
-                    </div>
-
-                    <!-- Malka RH - Recrutamento e Seleção -->
-                    <div class="content__item" id="content-5">
-                        <img class="content__item-img rounded-right" src="assets/images/projects/malka.PNG"
-                            alt="Malka RH - Recrutamento e Seleção" />
-                        <div class="content__item-inner">
-                            <h2>Malka RH</h2>
-                            <h3>Recrutamento e Seleção</h3>
-                            <p>
-                                Nesse site fiz meu primeiro modal. Coloquei dentro dele um iframe que conectava com uma
-                                página de atendimento
-                                do sistema do cliente. Por ser uma empresa de recrutamento e seleção e por atender ao
-                                público rapidamente,
-                                tive que fazer uma condição para o modal aparecer (somente das 8h às 18h e dias de
-                                semana), fiz via JavaScript.
-                            </p>
-                            <p><a href="http://malkarh.com.br/lp/recrutamento-e-selecao/" target="_blank">Ver mais sobre
-                                    o site &xrarr;</a></p>
-                        </div>
-                    </div>
-
-                    <button class="button button--close"><i class="far fa-times-circle"></i><span
-                            class="text-hidden">Close content</span></button>
-                </section>
-            </div>
-        </div>
-
-
-        <!-- VOLUNTARIADO -->
-        <div class="page" id="voluntariado">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Voluntariado</h1>
-                <p class="bp-header__desc">Desenvolvendo o lado comunitário<span class="purple"> o mais
-                        importante</span>!</p>
-                <p class="info">
-                    "Nossas vidas começam a terminar no dia em que permanecemos em silêncio sobre as coisas que
-                    importam." &mdash; Martin Luther King Jr.
-                </p>
-            </header>
-        </div>
-
-
-        <!-- CONTATO -->
-        <div class="page" id="contato">
-            <header class="bp-header cf">
-                <h1 class="bp-header__title">Contato</h1>
-                <p class="bp-header__desc">Minhas informações pessoais, mas se preferir <a
-                        href="https://api.whatsapp.com/send?phone=5511996969301" target="_blank">me chame no whats</a>!
-                </p>
-                <p class="info">
-                    "Enfrentar sofrimentos contribuirá indiscutivelmente para a elevação de sua prática espiritual,
-                    desde que você seja capaz de tranformar a calamidade e o infortúnio em caminho." &mdash; Dalai Lama
-                </p>
-            </header>
-            <div>
-                <div class='left'>
-                    <div class='app'>
-                        <div class='app_inner'>
-
-                            <!-- Tab 1 -->
-                            <input checked='' id='tab-1' name='buttons' type='radio'>
-                            <label for='tab-1'>
-                                <div class='app_inner__tab'>
-                                    <h2>
-                                        <i class='fas fa-user-ninja'></i>
-                                        Bruno Garcia da Silva
-                                    </h2>
-                                    <div class='tab_left'>
-                                        <i class='fas fa-user-astronaut icon-top'></i>
-                                        <div class='tab_left__image'>
-                                            <i class='fas fa-user-astronaut'></i>
-                                        </div>
-                                    </div>
-                                    <div class='tab_right'>
-                                        <h3>Desenvolvedor Full-Stack Jr.</h3>
-                                        <h4>Solteiro</h4>
-                                        <p>22 anos</p>
-                                    </div>
-                                </div>
-                            </label>
-
-                            <!-- Tab 2 -->
-                            <input false='' id='tab-2' name='buttons' type='radio'>
-                            <label for='tab-2'>
-                                <div class='app_inner__tab'>
-                                    <h2>
-                                        <i class='fas fa-user-tie'></i>
-                                        Ciências da Computação
-                                    </h2>
-                                    <div class='tab_left'>
-                                        <i class='fas fa-user-graduate icon-top'></i>
-                                        <div class='tab_left__image'>
-                                            <i class='fas fa-user-graduate'></i>
-                                        </div>
-                                    </div>
-                                    <div class='tab_right'>
-                                        <h3>Universidade São Judas Tadeu - USJT</h3>
-                                        <h4>Concluído</h4>
-                                        <p>06/2018 até 06/2022</p>
-                                    </div>
-                                </div>
-                            </label>
-
-                            <!-- Tab 3 -->
-                            <input false='' id='tab-3' name='buttons' type='radio'>
-                            <label for='tab-3'>
-                                <div class='app_inner__tab'>
-                                    <h2>
-                                        <i class='fas fa-envelope-open-text'></i>
-                                        bruno-151299@hotmail.com
-                                    </h2>
-                                    <div class='tab_left'>
-                                        <i class='fab fa-mailchimp icon-top'></i>
-                                        <div class='tab_left__image'>
-                                            <i class='fab fa-mailchimp'></i>
-                                        </div>
-                                    </div>
-                                    <div class='tab_right'>
-                                        <h3>(11) 99696-9301</h3>
-                                        <h4>Vila Nova Mazzei</h4>
-                                        <p>São Paulo, SP</p>
-                                    </div>
-                                </div>
-                            </label>
-
-                            <!-- Tab 4 -->
-                            <input false='' id='tab-4' name='buttons' type='radio'>
-                            <label for='tab-4'>
-                                <div class='app_inner__tab'>
-                                    <h2>
-                                        <i class='fab fa-angellist'></i>
-                                        Inglês Avançado
-                                    </h2>
-                                    <div class='tab_left'>
-                                        <i class='fas fa-balance-scale icon-top'></i>
-                                        <div class='tab_left__image'>
-                                            <i class='fas fa-balance-scale'></i>
-                                        </div>
-                                    </div>
-                                    <div class='tab_right'>
-                                        <h3>Curso de Inglês - Number One</h3>
-                                        <h4>Disponível para viagens e mudanças</h4>
-                                        <p>Em breve um intercâmbio</p>
-                                    </div>
-                                </div>
-                            </label>
-
-                        </div>
-                    </div>
+            <!-- Linguagem C - Udemy -->
+            <li class="icon-clima-4">
+              <h3>Linguagem C - Udemy</h3>
+              <span class="rb-temp">C</span>
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city">Conceitos</span>
+                    <span class="desc-course"
+                      >Fundamentos da linguagem de programação</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Estruturas condicionais</span>
+                    <span class="description-course"
+                      >If / else / else if / switch</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Estruturas de repetição</span>
+                    <span class="description-course"
+                      >while / do while / for</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Funções</span>
+                    <span class="description-course"
+                      >Parâmetros, retorno, tipos de função</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Bibliotecas</span>
+                    <span class="description-course">stdio.h / conio.h</span>
+                  </div>
                 </div>
-            </div>
+              </div>
+            </li>
+
+            <!-- Inglês Fluente - Number One -->
+            <li class="icon-clima-1">
+              <h3>Inglês Fluente</h3>
+              <span class="rb-temp">Number One</span>
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city">Inglês Corporativo</span>
+                    <span class="desc-course">Gramática e Conversação</span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Tempos Verbais</span>
+                    <span class="description-course"
+                      >Simple Past, Past Perfect, Past Continuos</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Expressões</span>
+                    <span class="description-course"
+                      >"For goodness' sake!", "To have no clue", "Never mind"
+                    </span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Comparação</span>
+                    <span class="description-course"
+                      >Superlative, Comparative</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Costumes Antigos</span>
+                    <span class="description-course">Used to</span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Reported Speech</span>
+                    <span class="description-course"
+                      >Said x told - Can x Could - Will x Would</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Succeeding in Web Development -->
+            <li class="icon-clima-1 rb-span-2">
+              <h3>Succeeding in Web Development</h3>
+              <span class="rb-temp">Becoming a Web Developer</span>
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city">Web Development</span>
+                    <span class="desc-course">Linkedin</span>
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Becoming a Web Developer</span>
+                    <span class="description-course"
+                      >Responsabilidades de um programador, carreira e suas
+                      tecnologias</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">A Developer's Life</span>
+                    <span class="description-course"
+                      >Tipos de devs, como é a vida de um dev e aonde pode
+                      chegar sendo um dev</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Core Technologies</span>
+                    <span class="description-course"
+                      >HTML5 fundamental, CSS3 design, JavaScript interatividade
+                      e HTTP(S) conexão</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Core Concepts</span>
+                    <span class="description-course"
+                      >Como funciona a internet, montando projetos, métodos de
+                      design, habilidade de desenvolvimento e controle de
+                      versão</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Supporting Technologies</span>
+                    <span class="description-course"
+                      >Servidor, Back-end, Ferramentas, Frameworks e Bibliotecas
+                      e API'S e Serviços</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Education</span>
+                    <span class="description-course"
+                      >Bom desenvolvimento de código, bootcamps, cursos
+                      online</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Getting a Job</span>
+                    <span class="description-course"
+                      >Como devs encontram emprego, o processo de contratação,
+                      compensação e melhor opção</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Física Avançada - ICTP Saifr -->
+            <li class="icon-clima-1 rb-span-2">
+              <h3>Física Avançada - ICTP Saifr</h3>
+              <span class="rb-temp"
+                >Relatividade, Gravitação e Mecânica Quântica</span
+              >
+              <div class="rb-overlay">
+                <span class="rb-close">close</span>
+                <div class="rb-week">
+                  <div class="div-span-cursos">
+                    <span class="rb-city">Física Avançada</span>
+                    <span class="desc-course"
+                      >Relatividade, Gravitação e Mecânica Quântica</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Espaço-Tempo</span>
+                    <span class="description-course"
+                      >Velocidade da Luz, Cone de Luz, Dilatação do Tempo,
+                      Distancias e Simultaneidade</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Adição de Velocidades</span>
+                    <span class="description-course"
+                      >Contração do Espaço, Paradoxo do Gêmeos, Taquião</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Luz</span>
+                    <span class="description-course"
+                      >Fotão, Velocidade da Luz em ambientes diferentes,
+                      Espelhos</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Buraco Negro</span>
+                    <span class="description-course"
+                      >Gráficos de Buracos Negros e Branco, Singularidade, Plano
+                      Complexo</span
+                    >
+                  </div>
+                  <div class="div-span-cursos">
+                    <span class="title-course">Teoria de Cordas</span>
+                    <span class="description-course"
+                      >Blocos fundamentais, particulas x cordas</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
 
+      <!-- PROJETOS -->
+      <div class="page" id="projetos">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Projetos Realizados</h1>
+          <p class="bp-header__desc">
+            Alguns dos projetos realizados por mim, ainda enquanto
+            <span class="purple">estagiário e júnior</span>!
+          </p>
+        </header>
 
+        <div class="container">
+          <!-- Grid -->
+          <section class="slider">
+            <!-- CSS - Soluções Integradas -->
+            <div class="slide slide--current" data-content="content-1">
+              <div class="slide__mover">
+                <div class="zoomer flex-center">
+                  <img
+                    class="zoomer__image"
+                    src="assets/images/projects/iphone.png"
+                    alt="CSS - Soluções"
+                  />
+                  <div class="preview">
+                    <img
+                      src="assets/images/projects/css-solucoes-preview.PNG"
+                      alt="CSS - Soluções"
+                      width="117px"
+                    />
+                    <div class="zoomer__area zoomer__area--size-2"></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slide__title"><span>Soluções Integradas</span>CSS</h2>
+            </div>
+
+            <!-- Sensei Organização Contábil -->
+            <div class="slide" data-content="content-2">
+              <div class="slide__mover">
+                <div class="zoomer flex-center">
+                  <img
+                    class="zoomer__image"
+                    src="assets/images/projects/ipad.png"
+                    alt="Sensei Organização Contábil"
+                  />
+                  <div class="preview">
+                    <img
+                      src="assets/images/projects/sensei-contabil-preview.PNG"
+                      alt="Sensei Organização Contábil"
+                      width="152px"
+                    />
+                    <div class="zoomer__area zoomer__area--size-4"></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slide__title">
+                <span>Organização Contábil</span> Sensei
+              </h2>
+            </div>
+
+            <!-- Trocafone Reparos -->
+            <div class="slide" data-content="content-3">
+              <div class="slide__mover">
+                <div class="zoomer flex-center">
+                  <img
+                    class="zoomer__image"
+                    src="assets/images/projects/macbook.png"
+                    alt="Trocafone Reparos"
+                  />
+                  <div class="preview">
+                    <img
+                      src="assets/images/projects/trocafone_reparos_preview.png"
+                      alt="Trocafone Reparos"
+                      width="321px"
+                      height="203px"
+                    />
+                    <div class="zoomer__area zoomer__area--size-3"></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slide__title">
+                <span>Trocafone Reparos</span> Reparofone
+              </h2>
+            </div>
+
+            <!-- DGS - Serviços Administrativos -->
+            <div class="slide" data-content="content-4">
+              <div class="slide__mover">
+                <div class="zoomer flex-center">
+                  <img
+                    class="zoomer__image"
+                    src="assets/images/projects/imac.png"
+                    alt="DGS - Serviços Administrativos"
+                  />
+                  <div class="preview">
+                    <img
+                      src="assets/images/projects/dgs-preview.PNG"
+                      alt="DGS - Serviços Administrativos"
+                      width="321px"
+                    />
+                    <div class="zoomer__area zoomer__area--size-5"></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slide__title">
+                <span>Serviços Administrativos</span> DGS
+              </h2>
+            </div>
+
+            <!-- Malka RH - Recrutamento e Seleção -->
+            <div class="slide" data-content="content-5">
+              <div class="slide__mover">
+                <div class="zoomer flex-center">
+                  <img
+                    class="zoomer__image"
+                    src="assets/images/projects/apple-watch.png"
+                    alt="Malka RH - Recrutamento e Seleção"
+                  />
+                  <div class="preview rounded">
+                    <img
+                      src="assets/images/projects/malka-preview.PNG"
+                      alt="Malka RH - Recrutamento e Seleção"
+                      width="100px"
+                      height="120px"
+                    />
+                    <div class="zoomer__area zoomer__area--size-1"></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slide__title">
+                <span>Recrutamento e Seleção</span> Malka RH
+              </h2>
+            </div>
+
+            <nav class="slider__nav">
+              <button class="button button--nav-prev">
+                <i class="fas fa-arrow-left"></i
+                ><span class="text-hidden">Projeto anterior</span>
+              </button>
+              <button class="button button--zoom">
+                <i class="fas fa-search"></i
+                ><span class="text-hidden">Ver Detalhes</span>
+              </button>
+              <button class="button button--nav-next">
+                <i class="fas fa-arrow-right"></i
+                ><span class="text-hidden">Próximo projeto</span>
+              </button>
+            </nav>
+          </section>
+
+          <!-- Slider-->
+          <section class="content">
+            <!-- CSS - Soluções -->
+            <div class="content__item" id="content-1">
+              <img
+                class="content__item-img rounded-right"
+                src="assets/images/projects/css-solucoes.PNG"
+                alt="CSS - Soluções Integradas"
+              />
+              <div class="content__item-inner">
+                <h2>CSS - Soluções Integradas</h2>
+                <h3>Serviços especializados para terminais</h3>
+                <p>
+                  Primeiro site que realizei sozinho e do zero. Com diversos
+                  serviços disponibilizados pela empresa, muitas páginas foram
+                  desenvolvidas. O nome dos serviços são bem extensos e com isso
+                  adicionei responsividade e layout correto nos menus (header,
+                  footer, sidebar).
+                </p>
+                <p>
+                  <a href="http://csssolucoes.com.br/" target="_blank"
+                    >Ver mais sobre o site &xrarr;</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Sensei Contábil -->
+            <div class="content__item" id="content-2">
+              <img
+                class="content__item-img rounded-right"
+                src="assets/images/projects/sensei-contabil.PNG"
+                alt="Sensei Organização Contábil"
+              />
+              <div class="content__item-inner">
+                <h2>Sensei Organização Contábil</h2>
+                <h3>Empresa de contabilidade</h3>
+                <p>
+                  Primeira vez que implemento um site responsivo. Nessa ocasião
+                  tive que lidar com muitos problemas de responsividade, o
+                  breadcumb estava muito ruim, tanto as imagens como o
+                  texto/título. Criei pela primeira vez também um menu
+                  drop-down, visto na aba "Serviços".
+                </p>
+                <p>
+                  <a href="https://www.senseicontabil.com.br/" target="_blank"
+                    >Ver mais sobre o site &xrarr;</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Trocafone Reparos -->
+            <div class="content__item" id="content-3">
+              <img
+                class="content__item-img rounded-right"
+                src="assets/images/projects/trocafone_reparos.png"
+                alt="Trocafone Reparos"
+              />
+              <div class="content__item-inner">
+                <h2>Trocafone Reparos</h2>
+                <h3>Reparo de Smartphones</h3>
+                <p>
+                  Primeira página feita 100% em React, com tecnologias e
+                  bibliotecas derivadas do React, como por exemplo, Redux para
+                  tratamento dos estados da aplicação e o Material UI para
+                  construção dos componentes e estilização. Foi utilizado também
+                  o GraphQL para consumação das APIs.
+                </p>
+                <p>
+                  <a href="https://reparofone.com.br/novaordem" target="_blank"
+                    >Ver mais sobre o site &xrarr;</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- DGS - Serviços Administrativos -->
+            <div class="content__item" id="content-4">
+              <img
+                class="content__item-img rounded-right"
+                src="assets/images/projects/dgs.PNG"
+                alt="DGS - Serviços Administrativos"
+              />
+              <div class="content__item-inner">
+                <h2>DGS</h2>
+                <h3>Serviços Administrativos</h3>
+                <p>
+                  Com pouco mais de experiência, desenvolvi este site muito
+                  melhor, com organização de código e componentização dos
+                  arquivos, facilitando muito a manutenção. Adicionei uma
+                  funcionalidade scroll, deixando o site mais agradável ao
+                  realizar o clique em uma das opções do header, com o scroll
+                  suave no site.
+                </p>
+                <p>
+                  <a href="http://www.dgsservicosadm.com.br/" target="_blank"
+                    >Ver mais sobre o site &xrarr;</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Malka RH - Recrutamento e Seleção -->
+            <div class="content__item" id="content-5">
+              <img
+                class="content__item-img rounded-right"
+                src="assets/images/projects/malka.PNG"
+                alt="Malka RH - Recrutamento e Seleção"
+              />
+              <div class="content__item-inner">
+                <h2>Malka RH</h2>
+                <h3>Recrutamento e Seleção</h3>
+                <p>
+                  Nesse site fiz meu primeiro modal. Coloquei dentro dele um
+                  iframe que conectava com uma página de atendimento do sistema
+                  do cliente. Por ser uma empresa de recrutamento e seleção e
+                  por atender ao público rapidamente, tive que fazer uma
+                  condição para o modal aparecer (somente das 8h às 18h e dias
+                  de semana), fiz via JavaScript.
+                </p>
+                <p>
+                  <a
+                    href="http://malkarh.com.br/lp/recrutamento-e-selecao/"
+                    target="_blank"
+                    >Ver mais sobre o site &xrarr;</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <button class="button button--close">
+              <i class="far fa-times-circle"></i
+              ><span class="text-hidden">Close content</span>
+            </button>
+          </section>
+        </div>
+      </div>
+
+      <!-- VOLUNTARIADO -->
+      <div class="page" id="voluntariado">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Voluntariado</h1>
+          <p class="bp-header__desc">
+            Desenvolvendo o lado comunitário<span class="purple">
+              o mais importante</span
+            >!
+          </p>
+          <p class="info">
+            "Nossas vidas começam a terminar no dia em que permanecemos em
+            silêncio sobre as coisas que importam." &mdash; Martin Luther King
+            Jr.
+          </p>
+        </header>
+      </div>
+
+      <!-- CONTATO -->
+      <div class="page" id="contato">
+        <header class="bp-header cf">
+          <h1 class="bp-header__title">Contato</h1>
+          <p class="bp-header__desc">
+            Minhas informações pessoais, mas se preferir
+            <a
+              href="https://api.whatsapp.com/send?phone=5511996969301"
+              target="_blank"
+              >me chame no whats</a
+            >!
+          </p>
+          <p class="info">
+            "Enfrentar sofrimentos contribuirá indiscutivelmente para a elevação
+            de sua prática espiritual, desde que você seja capaz de tranformar a
+            calamidade e o infortúnio em caminho." &mdash; Dalai Lama
+          </p>
+        </header>
+        <div>
+          <div class="left">
+            <div class="app">
+              <div class="app_inner">
+                <!-- Tab 1 -->
+                <input checked="" id="tab-1" name="buttons" type="radio" />
+                <label for="tab-1">
+                  <div class="app_inner__tab">
+                    <h2>
+                      <i class="fas fa-user-ninja"></i>
+                      Bruno Garcia da Silva
+                    </h2>
+                    <div class="tab_left">
+                      <i class="fas fa-user-astronaut icon-top"></i>
+                      <div class="tab_left__image">
+                        <i class="fas fa-user-astronaut"></i>
+                      </div>
+                    </div>
+                    <div class="tab_right">
+                      <h3>Desenvolvedor Full-Stack Jr.</h3>
+                      <h4>Solteiro</h4>
+                      <p>22 anos</p>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- Tab 2 -->
+                <input false="" id="tab-2" name="buttons" type="radio" />
+                <label for="tab-2">
+                  <div class="app_inner__tab">
+                    <h2>
+                      <i class="fas fa-user-tie"></i>
+                      Ciências da Computação
+                    </h2>
+                    <div class="tab_left">
+                      <i class="fas fa-user-graduate icon-top"></i>
+                      <div class="tab_left__image">
+                        <i class="fas fa-user-graduate"></i>
+                      </div>
+                    </div>
+                    <div class="tab_right">
+                      <h3>Universidade São Judas Tadeu - USJT</h3>
+                      <h4>Concluído</h4>
+                      <p>06/2018 até 06/2022</p>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- Tab 3 -->
+                <input false="" id="tab-3" name="buttons" type="radio" />
+                <label for="tab-3">
+                  <div class="app_inner__tab">
+                    <h2>
+                      <i class="fas fa-envelope-open-text"></i>
+                      bruno-151299@hotmail.com
+                    </h2>
+                    <div class="tab_left">
+                      <i class="fab fa-mailchimp icon-top"></i>
+                      <div class="tab_left__image">
+                        <i class="fab fa-mailchimp"></i>
+                      </div>
+                    </div>
+                    <div class="tab_right">
+                      <h3>(11) 99696-9301</h3>
+                      <h4>Vila Nova Mazzei</h4>
+                      <p>São Paulo, SP</p>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- Tab 4 -->
+                <input false="" id="tab-4" name="buttons" type="radio" />
+                <label for="tab-4">
+                  <div class="app_inner__tab">
+                    <h2>
+                      <i class="fab fa-angellist"></i>
+                      Inglês Avançado
+                    </h2>
+                    <div class="tab_left">
+                      <i class="fas fa-balance-scale icon-top"></i>
+                      <div class="tab_left__image">
+                        <i class="fas fa-balance-scale"></i>
+                      </div>
+                    </div>
+                    <div class="tab_right">
+                      <h3>Curso de Inglês - Number One</h3>
+                      <h4>Disponível para viagens e mudanças</h4>
+                      <p>Em breve um intercâmbio</p>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /páginas fim -->
 
     <button class="menu-button"><span>Menu</span></button>
-
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
 
     <!-- Main & Classie JS -->
     <script src="assets/js/classie.js"></script>
     <script src="assets/js/main.js"></script>
 
     <!-- Izi Modal JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"
-        integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A=="
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"
+      integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A=="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Modal-Feedback -->
     <script src="assets/js/modal-feedback.js"></script>
@@ -990,24 +1206,20 @@
     <script src="assets/js/courses.js"></script>
 
     <script>
-        $(function () {
+      $(function () {
+        Boxgrid.init();
+      });
 
-            Boxgrid.init();
+      function onLoad() {
+        let doc = document.getElementById("cursos");
 
+        doc.addEventListener("scroll", function () {
+          // let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
+          let value = doc.scrollY;
+
+          console.log(value);
         });
-
-        function onLoad() {
-            let doc = document.getElementById('cursos')
-
-            doc.addEventListener('scroll', function () {
-                // let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
-                let value = doc.scrollY
-
-                console.log(value);
-            })
-        }
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
